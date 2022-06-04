@@ -30,14 +30,14 @@ Partial Class ContactTracing
         Me.TextBoxSurname = New System.Windows.Forms.TextBox()
         Me.TextBoxFirstName = New System.Windows.Forms.TextBox()
         Me.TextBoxMiddleInitial = New System.Windows.Forms.TextBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.DateTimePickerNowDate = New System.Windows.Forms.DateTimePicker()
+        Me.LabelAddress = New System.Windows.Forms.Label()
+        Me.RichTextBoxAddress = New System.Windows.Forms.RichTextBox()
+        Me.TextBoxEmail = New System.Windows.Forms.TextBox()
+        Me.LabelEmail = New System.Windows.Forms.Label()
+        Me.TextBoxPhoneNumber = New System.Windows.Forms.TextBox()
+        Me.LabelPhoneNumber = New System.Windows.Forms.Label()
+        Me.ButtonNextPage2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LabelInstruction
@@ -93,6 +93,7 @@ Partial Class ContactTracing
         Me.TextBoxSurname.Name = "TextBoxSurname"
         Me.TextBoxSurname.Size = New System.Drawing.Size(176, 23)
         Me.TextBoxSurname.TabIndex = 5
+        Me.TextBoxSurname.TabStop = False
         '
         'TextBoxFirstName
         '
@@ -100,6 +101,7 @@ Partial Class ContactTracing
         Me.TextBoxFirstName.Name = "TextBoxFirstName"
         Me.TextBoxFirstName.Size = New System.Drawing.Size(160, 23)
         Me.TextBoxFirstName.TabIndex = 6
+        Me.TextBoxFirstName.TabStop = False
         '
         'TextBoxMiddleInitial
         '
@@ -107,86 +109,91 @@ Partial Class ContactTracing
         Me.TextBoxMiddleInitial.Name = "TextBoxMiddleInitial"
         Me.TextBoxMiddleInitial.Size = New System.Drawing.Size(49, 23)
         Me.TextBoxMiddleInitial.TabIndex = 7
+        Me.TextBoxMiddleInitial.TabStop = False
         '
-        'DateTimePicker1
+        'DateTimePickerNowDate
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(466, 137)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 23)
-        Me.DateTimePicker1.TabIndex = 8
+        Me.DateTimePickerNowDate.Location = New System.Drawing.Point(466, 137)
+        Me.DateTimePickerNowDate.Name = "DateTimePickerNowDate"
+        Me.DateTimePickerNowDate.Size = New System.Drawing.Size(200, 23)
+        Me.DateTimePickerNowDate.TabIndex = 8
+        Me.DateTimePickerNowDate.TabStop = False
         '
-        'Label1
+        'LabelAddress
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(18, 229)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(485, 15)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "COMPLETE CURRENT ADDRESS (HOUSE NO., ST., BRGY., MUNICIPALITY/CITY, PROVINCE) :"
+        Me.LabelAddress.AutoSize = True
+        Me.LabelAddress.Location = New System.Drawing.Point(18, 229)
+        Me.LabelAddress.Name = "LabelAddress"
+        Me.LabelAddress.Size = New System.Drawing.Size(485, 15)
+        Me.LabelAddress.TabIndex = 9
+        Me.LabelAddress.Text = "COMPLETE CURRENT ADDRESS (HOUSE NO., ST., BRGY., MUNICIPALITY/CITY, PROVINCE) :"
         '
-        'RichTextBox1
+        'RichTextBoxAddress
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(21, 257)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
-        Me.RichTextBox1.Size = New System.Drawing.Size(645, 53)
-        Me.RichTextBox1.TabIndex = 10
-        Me.RichTextBox1.Text = ""
+        Me.RichTextBoxAddress.Location = New System.Drawing.Point(21, 257)
+        Me.RichTextBoxAddress.Name = "RichTextBoxAddress"
+        Me.RichTextBoxAddress.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
+        Me.RichTextBoxAddress.Size = New System.Drawing.Size(645, 53)
+        Me.RichTextBoxAddress.TabIndex = 10
+        Me.RichTextBoxAddress.TabStop = False
+        Me.RichTextBoxAddress.Text = ""
         '
-        'TextBox1
+        'TextBoxEmail
         '
-        Me.TextBox1.Location = New System.Drawing.Point(72, 334)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(258, 23)
-        Me.TextBox1.TabIndex = 12
+        Me.TextBoxEmail.Location = New System.Drawing.Point(72, 334)
+        Me.TextBoxEmail.Name = "TextBoxEmail"
+        Me.TextBoxEmail.Size = New System.Drawing.Size(258, 23)
+        Me.TextBoxEmail.TabIndex = 12
+        Me.TextBoxEmail.TabStop = False
         '
-        'Label2
+        'LabelEmail
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(22, 339)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(44, 15)
-        Me.Label2.TabIndex = 11
-        Me.Label2.Text = "EMAIL:"
+        Me.LabelEmail.AutoSize = True
+        Me.LabelEmail.Location = New System.Drawing.Point(22, 339)
+        Me.LabelEmail.Name = "LabelEmail"
+        Me.LabelEmail.Size = New System.Drawing.Size(44, 15)
+        Me.LabelEmail.TabIndex = 11
+        Me.LabelEmail.Text = "EMAIL:"
         '
-        'TextBox2
+        'TextBoxPhoneNumber
         '
-        Me.TextBox2.Location = New System.Drawing.Point(466, 334)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(198, 23)
-        Me.TextBox2.TabIndex = 14
+        Me.TextBoxPhoneNumber.Location = New System.Drawing.Point(466, 334)
+        Me.TextBoxPhoneNumber.Name = "TextBoxPhoneNumber"
+        Me.TextBoxPhoneNumber.Size = New System.Drawing.Size(198, 23)
+        Me.TextBoxPhoneNumber.TabIndex = 14
+        Me.TextBoxPhoneNumber.TabStop = False
         '
-        'Label3
+        'LabelPhoneNumber
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(360, 339)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(103, 15)
-        Me.Label3.TabIndex = 13
-        Me.Label3.Text = "MOBILE NUMBER:"
+        Me.LabelPhoneNumber.AutoSize = True
+        Me.LabelPhoneNumber.Location = New System.Drawing.Point(360, 339)
+        Me.LabelPhoneNumber.Name = "LabelPhoneNumber"
+        Me.LabelPhoneNumber.Size = New System.Drawing.Size(103, 15)
+        Me.LabelPhoneNumber.TabIndex = 13
+        Me.LabelPhoneNumber.Text = "MOBILE NUMBER:"
         '
-        'Button1
+        'ButtonNextPage2
         '
-        Me.Button1.Location = New System.Drawing.Point(589, 387)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 15
-        Me.Button1.Text = "NEXT"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonNextPage2.Location = New System.Drawing.Point(589, 387)
+        Me.ButtonNextPage2.Name = "ButtonNextPage2"
+        Me.ButtonNextPage2.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNextPage2.TabIndex = 15
+        Me.ButtonNextPage2.Text = "NEXT"
+        Me.ButtonNextPage2.UseVisualStyleBackColor = True
         '
         'ContactTracing
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.RichTextBox1)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.ButtonNextPage2)
+        Me.Controls.Add(Me.TextBoxPhoneNumber)
+        Me.Controls.Add(Me.LabelPhoneNumber)
+        Me.Controls.Add(Me.TextBoxEmail)
+        Me.Controls.Add(Me.LabelEmail)
+        Me.Controls.Add(Me.RichTextBoxAddress)
+        Me.Controls.Add(Me.LabelAddress)
+        Me.Controls.Add(Me.DateTimePickerNowDate)
         Me.Controls.Add(Me.TextBoxMiddleInitial)
         Me.Controls.Add(Me.TextBoxFirstName)
         Me.Controls.Add(Me.TextBoxSurname)
@@ -213,12 +220,12 @@ Partial Class ContactTracing
     Friend WithEvents TextBoxSurname As TextBox
     Friend WithEvents TextBoxFirstName As TextBox
     Friend WithEvents TextBoxMiddleInitial As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents Label1 As Label
-    Friend WithEvents RichTextBox1 As RichTextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents DateTimePickerNowDate As DateTimePicker
+    Friend WithEvents LabelAddress As Label
+    Friend WithEvents RichTextBoxAddress As RichTextBox
+    Friend WithEvents TextBoxEmail As TextBox
+    Friend WithEvents LabelEmail As Label
+    Friend WithEvents TextBoxPhoneNumber As TextBox
+    Friend WithEvents LabelPhoneNumber As Label
+    Friend WithEvents ButtonNextPage2 As Button
 End Class
