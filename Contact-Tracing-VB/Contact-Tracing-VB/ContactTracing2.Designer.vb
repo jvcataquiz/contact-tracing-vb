@@ -22,321 +22,321 @@ Partial Class ContactTracing2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
+        Me.LabelSymptoms = New System.Windows.Forms.Label()
+        Me.LabelSymptomsInstruction = New System.Windows.Forms.Label()
+        Me.LabelSymptoms1 = New System.Windows.Forms.Label()
+        Me.LabelSymptoms2 = New System.Windows.Forms.Label()
+        Me.LabelLabelSymptoms3 = New System.Windows.Forms.Label()
+        Me.LabelExposure = New System.Windows.Forms.Label()
+        Me.LabelExposure1 = New System.Windows.Forms.Label()
+        Me.LabelExposure2 = New System.Windows.Forms.Label()
+        Me.LabelExposure3 = New System.Windows.Forms.Label()
+        Me.GroupBoxFour = New System.Windows.Forms.GroupBox()
+        Me.RadioButtonExposure1Yes = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonExposure1No = New System.Windows.Forms.RadioButton()
+        Me.GroupBoxFive = New System.Windows.Forms.GroupBox()
+        Me.RadioButtonExposure2Yes = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonExposure2No = New System.Windows.Forms.RadioButton()
+        Me.GroupBoxSix = New System.Windows.Forms.GroupBox()
+        Me.RadioButtonExposure3Yes = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonExposure3No = New System.Windows.Forms.RadioButton()
+        Me.GroupBoxThree = New System.Windows.Forms.GroupBox()
+        Me.RadioButtonSymptoms3Yes = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonSymptoms3No = New System.Windows.Forms.RadioButton()
+        Me.GroupBoxTwo = New System.Windows.Forms.GroupBox()
+        Me.RadioButtonSymptoms2Yes = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonSymptoms2No = New System.Windows.Forms.RadioButton()
+        Me.GroupBoxOne = New System.Windows.Forms.GroupBox()
+        Me.RadioButtonSymptoms1Yes = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonSymptoms1No = New System.Windows.Forms.RadioButton()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
-        Me.GroupBox6.SuspendLayout()
+        Me.GroupBoxFour.SuspendLayout()
+        Me.GroupBoxFive.SuspendLayout()
+        Me.GroupBoxSix.SuspendLayout()
+        Me.GroupBoxThree.SuspendLayout()
+        Me.GroupBoxTwo.SuspendLayout()
+        Me.GroupBoxOne.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label1
+        'LabelSymptoms
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(35, 108)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(166, 15)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Symptoms for the past 14days"
+        Me.LabelSymptoms.AutoSize = True
+        Me.LabelSymptoms.Location = New System.Drawing.Point(35, 108)
+        Me.LabelSymptoms.Name = "LabelSymptoms"
+        Me.LabelSymptoms.Size = New System.Drawing.Size(166, 15)
+        Me.LabelSymptoms.TabIndex = 0
+        Me.LabelSymptoms.Text = "Symptoms for the past 14days"
         '
-        'Label2
+        'LabelSymptomsInstruction
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(35, 132)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(229, 30)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Please indicate if you have experience the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "following symptoms"
+        Me.LabelSymptomsInstruction.AutoSize = True
+        Me.LabelSymptomsInstruction.Location = New System.Drawing.Point(35, 132)
+        Me.LabelSymptomsInstruction.Name = "LabelSymptomsInstruction"
+        Me.LabelSymptomsInstruction.Size = New System.Drawing.Size(229, 30)
+        Me.LabelSymptomsInstruction.TabIndex = 1
+        Me.LabelSymptomsInstruction.Text = "Please indicate if you have experience the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "following symptoms"
         '
-        'Label3
+        'LabelSymptoms1
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(49, 174)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(140, 15)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "1.) Coughs, Cold or Fever"
+        Me.LabelSymptoms1.AutoSize = True
+        Me.LabelSymptoms1.Location = New System.Drawing.Point(49, 174)
+        Me.LabelSymptoms1.Name = "LabelSymptoms1"
+        Me.LabelSymptoms1.Size = New System.Drawing.Size(140, 15)
+        Me.LabelSymptoms1.TabIndex = 2
+        Me.LabelSymptoms1.Text = "1.) Coughs, Cold or Fever"
         '
-        'Label4
+        'LabelSymptoms2
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(49, 250)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(139, 15)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "2.) Difficulty of Breathing"
+        Me.LabelSymptoms2.AutoSize = True
+        Me.LabelSymptoms2.Location = New System.Drawing.Point(49, 250)
+        Me.LabelSymptoms2.Name = "LabelSymptoms2"
+        Me.LabelSymptoms2.Size = New System.Drawing.Size(139, 15)
+        Me.LabelSymptoms2.TabIndex = 3
+        Me.LabelSymptoms2.Text = "2.) Difficulty of Breathing"
         '
-        'Label5
+        'LabelLabelSymptoms3
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(49, 330)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(67, 15)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "3.) Diarrhea"
+        Me.LabelLabelSymptoms3.AutoSize = True
+        Me.LabelLabelSymptoms3.Location = New System.Drawing.Point(49, 330)
+        Me.LabelLabelSymptoms3.Name = "LabelLabelSymptoms3"
+        Me.LabelLabelSymptoms3.Size = New System.Drawing.Size(67, 15)
+        Me.LabelLabelSymptoms3.TabIndex = 4
+        Me.LabelLabelSymptoms3.Text = "3.) Diarrhea"
         '
-        'Label6
+        'LabelExposure
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(363, 108)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(55, 15)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Exposure"
+        Me.LabelExposure.AutoSize = True
+        Me.LabelExposure.Location = New System.Drawing.Point(363, 108)
+        Me.LabelExposure.Name = "LabelExposure"
+        Me.LabelExposure.Size = New System.Drawing.Size(55, 15)
+        Me.LabelExposure.TabIndex = 5
+        Me.LabelExposure.Text = "Exposure"
         '
-        'Label7
+        'LabelExposure1
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(363, 164)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(281, 30)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "1.) Did you have unprotected exposure to a " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "suspect/confirmed COVID case for the" &
+        Me.LabelExposure1.AutoSize = True
+        Me.LabelExposure1.Location = New System.Drawing.Point(363, 164)
+        Me.LabelExposure1.Name = "LabelExposure1"
+        Me.LabelExposure1.Size = New System.Drawing.Size(281, 30)
+        Me.LabelExposure1.TabIndex = 6
+        Me.LabelExposure1.Text = "1.) Did you have unprotected exposure to a " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "suspect/confirmed COVID case for the" &
     " past 14 days?"
         '
-        'Label8
+        'LabelExposure2
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(363, 250)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(291, 30)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "2.) Did you have a family member experiencing those " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "symptoms?"
+        Me.LabelExposure2.AutoSize = True
+        Me.LabelExposure2.Location = New System.Drawing.Point(363, 250)
+        Me.LabelExposure2.Name = "LabelExposure2"
+        Me.LabelExposure2.Size = New System.Drawing.Size(291, 30)
+        Me.LabelExposure2.TabIndex = 7
+        Me.LabelExposure2.Text = "2.) Did you have a family member experiencing those " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "symptoms?"
         '
-        'Label9
+        'LabelExposure3
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(363, 326)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(284, 30)
-        Me.Label9.TabIndex = 8
-        Me.Label9.Text = "3.) Have you traveled to areas with high instances of " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "COVID-19?"
+        Me.LabelExposure3.AutoSize = True
+        Me.LabelExposure3.Location = New System.Drawing.Point(363, 326)
+        Me.LabelExposure3.Name = "LabelExposure3"
+        Me.LabelExposure3.Size = New System.Drawing.Size(284, 30)
+        Me.LabelExposure3.TabIndex = 8
+        Me.LabelExposure3.Text = "3.) Have you traveled to areas with high instances of " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "COVID-19?"
         '
-        'GroupBox1
+        'GroupBoxFour
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox1.Location = New System.Drawing.Point(402, 197)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(102, 45)
-        Me.GroupBox1.TabIndex = 9
-        Me.GroupBox1.TabStop = False
+        Me.GroupBoxFour.Controls.Add(Me.RadioButtonExposure1Yes)
+        Me.GroupBoxFour.Controls.Add(Me.RadioButtonExposure1No)
+        Me.GroupBoxFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBoxFour.Location = New System.Drawing.Point(402, 197)
+        Me.GroupBoxFour.Name = "GroupBoxFour"
+        Me.GroupBoxFour.Size = New System.Drawing.Size(102, 45)
+        Me.GroupBoxFour.TabIndex = 9
+        Me.GroupBoxFour.TabStop = False
         '
-        'RadioButton2
+        'RadioButtonExposure1Yes
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 17)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(42, 19)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Yes"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadioButtonExposure1Yes.AutoSize = True
+        Me.RadioButtonExposure1Yes.Location = New System.Drawing.Point(6, 17)
+        Me.RadioButtonExposure1Yes.Name = "RadioButtonExposure1Yes"
+        Me.RadioButtonExposure1Yes.Size = New System.Drawing.Size(42, 19)
+        Me.RadioButtonExposure1Yes.TabIndex = 1
+        Me.RadioButtonExposure1Yes.TabStop = True
+        Me.RadioButtonExposure1Yes.Text = "Yes"
+        Me.RadioButtonExposure1Yes.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'RadioButtonExposure1No
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(55, 17)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "No"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadioButtonExposure1No.AutoSize = True
+        Me.RadioButtonExposure1No.Location = New System.Drawing.Point(55, 17)
+        Me.RadioButtonExposure1No.Name = "RadioButtonExposure1No"
+        Me.RadioButtonExposure1No.Size = New System.Drawing.Size(41, 19)
+        Me.RadioButtonExposure1No.TabIndex = 0
+        Me.RadioButtonExposure1No.TabStop = True
+        Me.RadioButtonExposure1No.Text = "No"
+        Me.RadioButtonExposure1No.UseVisualStyleBackColor = True
         '
-        'GroupBox2
+        'GroupBoxFive
         '
-        Me.GroupBox2.Controls.Add(Me.RadioButton3)
-        Me.GroupBox2.Controls.Add(Me.RadioButton4)
-        Me.GroupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox2.Location = New System.Drawing.Point(402, 278)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(102, 45)
-        Me.GroupBox2.TabIndex = 10
-        Me.GroupBox2.TabStop = False
+        Me.GroupBoxFive.Controls.Add(Me.RadioButtonExposure2Yes)
+        Me.GroupBoxFive.Controls.Add(Me.RadioButtonExposure2No)
+        Me.GroupBoxFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBoxFive.Location = New System.Drawing.Point(402, 278)
+        Me.GroupBoxFive.Name = "GroupBoxFive"
+        Me.GroupBoxFive.Size = New System.Drawing.Size(102, 45)
+        Me.GroupBoxFive.TabIndex = 10
+        Me.GroupBoxFive.TabStop = False
         '
-        'RadioButton3
+        'RadioButtonExposure2Yes
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(6, 17)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(42, 19)
-        Me.RadioButton3.TabIndex = 1
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Yes"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.RadioButtonExposure2Yes.AutoSize = True
+        Me.RadioButtonExposure2Yes.Location = New System.Drawing.Point(6, 17)
+        Me.RadioButtonExposure2Yes.Name = "RadioButtonExposure2Yes"
+        Me.RadioButtonExposure2Yes.Size = New System.Drawing.Size(42, 19)
+        Me.RadioButtonExposure2Yes.TabIndex = 1
+        Me.RadioButtonExposure2Yes.TabStop = True
+        Me.RadioButtonExposure2Yes.Text = "Yes"
+        Me.RadioButtonExposure2Yes.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'RadioButtonExposure2No
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(55, 17)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton4.TabIndex = 0
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "No"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.RadioButtonExposure2No.AutoSize = True
+        Me.RadioButtonExposure2No.Location = New System.Drawing.Point(55, 17)
+        Me.RadioButtonExposure2No.Name = "RadioButtonExposure2No"
+        Me.RadioButtonExposure2No.Size = New System.Drawing.Size(41, 19)
+        Me.RadioButtonExposure2No.TabIndex = 0
+        Me.RadioButtonExposure2No.TabStop = True
+        Me.RadioButtonExposure2No.Text = "No"
+        Me.RadioButtonExposure2No.UseVisualStyleBackColor = True
         '
-        'GroupBox3
+        'GroupBoxSix
         '
-        Me.GroupBox3.Controls.Add(Me.RadioButton5)
-        Me.GroupBox3.Controls.Add(Me.RadioButton6)
-        Me.GroupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox3.Location = New System.Drawing.Point(402, 359)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(102, 45)
-        Me.GroupBox3.TabIndex = 11
-        Me.GroupBox3.TabStop = False
+        Me.GroupBoxSix.Controls.Add(Me.RadioButtonExposure3Yes)
+        Me.GroupBoxSix.Controls.Add(Me.RadioButtonExposure3No)
+        Me.GroupBoxSix.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBoxSix.Location = New System.Drawing.Point(402, 359)
+        Me.GroupBoxSix.Name = "GroupBoxSix"
+        Me.GroupBoxSix.Size = New System.Drawing.Size(102, 45)
+        Me.GroupBoxSix.TabIndex = 11
+        Me.GroupBoxSix.TabStop = False
         '
-        'RadioButton5
+        'RadioButtonExposure3Yes
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(6, 17)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(42, 19)
-        Me.RadioButton5.TabIndex = 1
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Yes"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.RadioButtonExposure3Yes.AutoSize = True
+        Me.RadioButtonExposure3Yes.Location = New System.Drawing.Point(6, 17)
+        Me.RadioButtonExposure3Yes.Name = "RadioButtonExposure3Yes"
+        Me.RadioButtonExposure3Yes.Size = New System.Drawing.Size(42, 19)
+        Me.RadioButtonExposure3Yes.TabIndex = 1
+        Me.RadioButtonExposure3Yes.TabStop = True
+        Me.RadioButtonExposure3Yes.Text = "Yes"
+        Me.RadioButtonExposure3Yes.UseVisualStyleBackColor = True
         '
-        'RadioButton6
+        'RadioButtonExposure3No
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(55, 17)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton6.TabIndex = 0
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "No"
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.RadioButtonExposure3No.AutoSize = True
+        Me.RadioButtonExposure3No.Location = New System.Drawing.Point(55, 17)
+        Me.RadioButtonExposure3No.Name = "RadioButtonExposure3No"
+        Me.RadioButtonExposure3No.Size = New System.Drawing.Size(41, 19)
+        Me.RadioButtonExposure3No.TabIndex = 0
+        Me.RadioButtonExposure3No.TabStop = True
+        Me.RadioButtonExposure3No.Text = "No"
+        Me.RadioButtonExposure3No.UseVisualStyleBackColor = True
         '
-        'GroupBox4
+        'GroupBoxThree
         '
-        Me.GroupBox4.Controls.Add(Me.RadioButton7)
-        Me.GroupBox4.Controls.Add(Me.RadioButton8)
-        Me.GroupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox4.Location = New System.Drawing.Point(70, 359)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(102, 45)
-        Me.GroupBox4.TabIndex = 10
-        Me.GroupBox4.TabStop = False
+        Me.GroupBoxThree.Controls.Add(Me.RadioButtonSymptoms3Yes)
+        Me.GroupBoxThree.Controls.Add(Me.RadioButtonSymptoms3No)
+        Me.GroupBoxThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBoxThree.Location = New System.Drawing.Point(70, 359)
+        Me.GroupBoxThree.Name = "GroupBoxThree"
+        Me.GroupBoxThree.Size = New System.Drawing.Size(102, 45)
+        Me.GroupBoxThree.TabIndex = 10
+        Me.GroupBoxThree.TabStop = False
         '
-        'RadioButton7
+        'RadioButtonSymptoms3Yes
         '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(6, 17)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(42, 19)
-        Me.RadioButton7.TabIndex = 1
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "Yes"
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.RadioButtonSymptoms3Yes.AutoSize = True
+        Me.RadioButtonSymptoms3Yes.Location = New System.Drawing.Point(6, 17)
+        Me.RadioButtonSymptoms3Yes.Name = "RadioButtonSymptoms3Yes"
+        Me.RadioButtonSymptoms3Yes.Size = New System.Drawing.Size(42, 19)
+        Me.RadioButtonSymptoms3Yes.TabIndex = 1
+        Me.RadioButtonSymptoms3Yes.TabStop = True
+        Me.RadioButtonSymptoms3Yes.Text = "Yes"
+        Me.RadioButtonSymptoms3Yes.UseVisualStyleBackColor = True
         '
-        'RadioButton8
+        'RadioButtonSymptoms3No
         '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(55, 17)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton8.TabIndex = 0
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "No"
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.RadioButtonSymptoms3No.AutoSize = True
+        Me.RadioButtonSymptoms3No.Location = New System.Drawing.Point(55, 17)
+        Me.RadioButtonSymptoms3No.Name = "RadioButtonSymptoms3No"
+        Me.RadioButtonSymptoms3No.Size = New System.Drawing.Size(41, 19)
+        Me.RadioButtonSymptoms3No.TabIndex = 0
+        Me.RadioButtonSymptoms3No.TabStop = True
+        Me.RadioButtonSymptoms3No.Text = "No"
+        Me.RadioButtonSymptoms3No.UseVisualStyleBackColor = True
         '
-        'GroupBox5
+        'GroupBoxTwo
         '
-        Me.GroupBox5.Controls.Add(Me.RadioButton9)
-        Me.GroupBox5.Controls.Add(Me.RadioButton10)
-        Me.GroupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox5.Location = New System.Drawing.Point(70, 278)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(102, 45)
-        Me.GroupBox5.TabIndex = 11
-        Me.GroupBox5.TabStop = False
+        Me.GroupBoxTwo.Controls.Add(Me.RadioButtonSymptoms2Yes)
+        Me.GroupBoxTwo.Controls.Add(Me.RadioButtonSymptoms2No)
+        Me.GroupBoxTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBoxTwo.Location = New System.Drawing.Point(70, 278)
+        Me.GroupBoxTwo.Name = "GroupBoxTwo"
+        Me.GroupBoxTwo.Size = New System.Drawing.Size(102, 45)
+        Me.GroupBoxTwo.TabIndex = 11
+        Me.GroupBoxTwo.TabStop = False
         '
-        'RadioButton9
+        'RadioButtonSymptoms2Yes
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(6, 17)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(42, 19)
-        Me.RadioButton9.TabIndex = 1
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Yes"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.RadioButtonSymptoms2Yes.AutoSize = True
+        Me.RadioButtonSymptoms2Yes.Location = New System.Drawing.Point(6, 17)
+        Me.RadioButtonSymptoms2Yes.Name = "RadioButtonSymptoms2Yes"
+        Me.RadioButtonSymptoms2Yes.Size = New System.Drawing.Size(42, 19)
+        Me.RadioButtonSymptoms2Yes.TabIndex = 1
+        Me.RadioButtonSymptoms2Yes.TabStop = True
+        Me.RadioButtonSymptoms2Yes.Text = "Yes"
+        Me.RadioButtonSymptoms2Yes.UseVisualStyleBackColor = True
         '
-        'RadioButton10
+        'RadioButtonSymptoms2No
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(55, 17)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton10.TabIndex = 0
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "No"
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.RadioButtonSymptoms2No.AutoSize = True
+        Me.RadioButtonSymptoms2No.Location = New System.Drawing.Point(55, 17)
+        Me.RadioButtonSymptoms2No.Name = "RadioButtonSymptoms2No"
+        Me.RadioButtonSymptoms2No.Size = New System.Drawing.Size(41, 19)
+        Me.RadioButtonSymptoms2No.TabIndex = 0
+        Me.RadioButtonSymptoms2No.TabStop = True
+        Me.RadioButtonSymptoms2No.Text = "No"
+        Me.RadioButtonSymptoms2No.UseVisualStyleBackColor = True
         '
-        'GroupBox6
+        'GroupBoxOne
         '
-        Me.GroupBox6.Controls.Add(Me.RadioButton11)
-        Me.GroupBox6.Controls.Add(Me.RadioButton12)
-        Me.GroupBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox6.Location = New System.Drawing.Point(70, 197)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(102, 45)
-        Me.GroupBox6.TabIndex = 12
-        Me.GroupBox6.TabStop = False
+        Me.GroupBoxOne.Controls.Add(Me.RadioButtonSymptoms1Yes)
+        Me.GroupBoxOne.Controls.Add(Me.RadioButtonSymptoms1No)
+        Me.GroupBoxOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupBoxOne.Location = New System.Drawing.Point(70, 197)
+        Me.GroupBoxOne.Name = "GroupBoxOne"
+        Me.GroupBoxOne.Size = New System.Drawing.Size(102, 45)
+        Me.GroupBoxOne.TabIndex = 12
+        Me.GroupBoxOne.TabStop = False
         '
-        'RadioButton11
+        'RadioButtonSymptoms1Yes
         '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(6, 17)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(42, 19)
-        Me.RadioButton11.TabIndex = 1
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "Yes"
-        Me.RadioButton11.UseVisualStyleBackColor = True
+        Me.RadioButtonSymptoms1Yes.AutoSize = True
+        Me.RadioButtonSymptoms1Yes.Location = New System.Drawing.Point(6, 17)
+        Me.RadioButtonSymptoms1Yes.Name = "RadioButtonSymptoms1Yes"
+        Me.RadioButtonSymptoms1Yes.Size = New System.Drawing.Size(42, 19)
+        Me.RadioButtonSymptoms1Yes.TabIndex = 1
+        Me.RadioButtonSymptoms1Yes.TabStop = True
+        Me.RadioButtonSymptoms1Yes.Text = "Yes"
+        Me.RadioButtonSymptoms1Yes.UseVisualStyleBackColor = True
         '
-        'RadioButton12
+        'RadioButtonSymptoms1No
         '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(55, 17)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(41, 19)
-        Me.RadioButton12.TabIndex = 0
-        Me.RadioButton12.TabStop = True
-        Me.RadioButton12.Text = "No"
-        Me.RadioButton12.UseVisualStyleBackColor = True
+        Me.RadioButtonSymptoms1No.AutoSize = True
+        Me.RadioButtonSymptoms1No.Location = New System.Drawing.Point(55, 17)
+        Me.RadioButtonSymptoms1No.Name = "RadioButtonSymptoms1No"
+        Me.RadioButtonSymptoms1No.Size = New System.Drawing.Size(41, 19)
+        Me.RadioButtonSymptoms1No.TabIndex = 0
+        Me.RadioButtonSymptoms1No.TabStop = True
+        Me.RadioButtonSymptoms1No.Text = "No"
+        Me.RadioButtonSymptoms1No.UseVisualStyleBackColor = True
         '
         'Label10
         '
@@ -353,69 +353,69 @@ Partial Class ContactTracing2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.GroupBox6)
-        Me.Controls.Add(Me.GroupBox5)
-        Me.Controls.Add(Me.GroupBox4)
-        Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.GroupBoxOne)
+        Me.Controls.Add(Me.GroupBoxTwo)
+        Me.Controls.Add(Me.GroupBoxThree)
+        Me.Controls.Add(Me.GroupBoxSix)
+        Me.Controls.Add(Me.GroupBoxFive)
+        Me.Controls.Add(Me.GroupBoxFour)
+        Me.Controls.Add(Me.LabelExposure3)
+        Me.Controls.Add(Me.LabelExposure2)
+        Me.Controls.Add(Me.LabelExposure1)
+        Me.Controls.Add(Me.LabelExposure)
+        Me.Controls.Add(Me.LabelLabelSymptoms3)
+        Me.Controls.Add(Me.LabelSymptoms2)
+        Me.Controls.Add(Me.LabelSymptoms1)
+        Me.Controls.Add(Me.LabelSymptomsInstruction)
+        Me.Controls.Add(Me.LabelSymptoms)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "ContactTracing2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ContactTracing2"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
-        Me.GroupBox6.ResumeLayout(False)
-        Me.GroupBox6.PerformLayout()
+        Me.GroupBoxFour.ResumeLayout(False)
+        Me.GroupBoxFour.PerformLayout()
+        Me.GroupBoxFive.ResumeLayout(False)
+        Me.GroupBoxFive.PerformLayout()
+        Me.GroupBoxSix.ResumeLayout(False)
+        Me.GroupBoxSix.PerformLayout()
+        Me.GroupBoxThree.ResumeLayout(False)
+        Me.GroupBoxThree.PerformLayout()
+        Me.GroupBoxTwo.ResumeLayout(False)
+        Me.GroupBoxTwo.PerformLayout()
+        Me.GroupBoxOne.ResumeLayout(False)
+        Me.GroupBoxOne.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
-    Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents RadioButton7 As RadioButton
-    Friend WithEvents RadioButton8 As RadioButton
-    Friend WithEvents GroupBox5 As GroupBox
-    Friend WithEvents RadioButton9 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
-    Friend WithEvents GroupBox6 As GroupBox
-    Friend WithEvents RadioButton11 As RadioButton
-    Friend WithEvents RadioButton12 As RadioButton
+    Friend WithEvents LabelSymptoms As Label
+    Friend WithEvents LabelSymptomsInstruction As Label
+    Friend WithEvents LabelSymptoms1 As Label
+    Friend WithEvents LabelSymptoms2 As Label
+    Friend WithEvents LabelLabelSymptoms3 As Label
+    Friend WithEvents LabelExposure As Label
+    Friend WithEvents LabelExposure1 As Label
+    Friend WithEvents LabelExposure2 As Label
+    Friend WithEvents LabelExposure3 As Label
+    Friend WithEvents GroupBoxFour As GroupBox
+    Friend WithEvents RadioButtonExposure1Yes As RadioButton
+    Friend WithEvents RadioButtonExposure1No As RadioButton
+    Friend WithEvents GroupBoxFive As GroupBox
+    Friend WithEvents RadioButtonExposure2Yes As RadioButton
+    Friend WithEvents RadioButtonExposure2No As RadioButton
+    Friend WithEvents GroupBoxSix As GroupBox
+    Friend WithEvents RadioButtonExposure3Yes As RadioButton
+    Friend WithEvents RadioButtonExposure3No As RadioButton
+    Friend WithEvents GroupBoxThree As GroupBox
+    Friend WithEvents RadioButtonSymptoms3Yes As RadioButton
+    Friend WithEvents RadioButtonSymptoms3No As RadioButton
+    Friend WithEvents GroupBoxTwo As GroupBox
+    Friend WithEvents RadioButtonSymptoms2Yes As RadioButton
+    Friend WithEvents RadioButtonSymptoms2No As RadioButton
+    Friend WithEvents GroupBoxOne As GroupBox
+    Friend WithEvents RadioButtonSymptoms1Yes As RadioButton
+    Friend WithEvents RadioButtonSymptoms1No As RadioButton
     Friend WithEvents Label10 As Label
 End Class
