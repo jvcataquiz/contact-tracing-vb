@@ -178,6 +178,7 @@ Partial Class ContactTracing
         Me.ButtonNextPage2.Name = "ButtonNextPage2"
         Me.ButtonNextPage2.Size = New System.Drawing.Size(75, 23)
         Me.ButtonNextPage2.TabIndex = 15
+        Me.ButtonNextPage2.TabStop = False
         Me.ButtonNextPage2.Text = "NEXT"
         Me.ButtonNextPage2.UseVisualStyleBackColor = True
         '
