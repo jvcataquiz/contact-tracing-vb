@@ -50,6 +50,7 @@ Partial Class ContactTracing2
         Me.RadioButtonSymptoms1Yes = New System.Windows.Forms.RadioButton()
         Me.RadioButtonSymptoms1No = New System.Windows.Forms.RadioButton()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.ButtonBackPage3 = New System.Windows.Forms.Button()
         Me.GroupBoxFour.SuspendLayout()
         Me.GroupBoxFive.SuspendLayout()
         Me.GroupBoxSix.SuspendLayout()
@@ -61,7 +62,7 @@ Partial Class ContactTracing2
         'LabelSymptoms
         '
         Me.LabelSymptoms.AutoSize = True
-        Me.LabelSymptoms.Location = New System.Drawing.Point(35, 108)
+        Me.LabelSymptoms.Location = New System.Drawing.Point(36, 71)
         Me.LabelSymptoms.Name = "LabelSymptoms"
         Me.LabelSymptoms.Size = New System.Drawing.Size(166, 15)
         Me.LabelSymptoms.TabIndex = 0
@@ -70,7 +71,7 @@ Partial Class ContactTracing2
         'LabelSymptomsInstruction
         '
         Me.LabelSymptomsInstruction.AutoSize = True
-        Me.LabelSymptomsInstruction.Location = New System.Drawing.Point(35, 132)
+        Me.LabelSymptomsInstruction.Location = New System.Drawing.Point(36, 95)
         Me.LabelSymptomsInstruction.Name = "LabelSymptomsInstruction"
         Me.LabelSymptomsInstruction.Size = New System.Drawing.Size(229, 30)
         Me.LabelSymptomsInstruction.TabIndex = 1
@@ -79,7 +80,7 @@ Partial Class ContactTracing2
         'LabelSymptoms1
         '
         Me.LabelSymptoms1.AutoSize = True
-        Me.LabelSymptoms1.Location = New System.Drawing.Point(49, 174)
+        Me.LabelSymptoms1.Location = New System.Drawing.Point(50, 137)
         Me.LabelSymptoms1.Name = "LabelSymptoms1"
         Me.LabelSymptoms1.Size = New System.Drawing.Size(140, 15)
         Me.LabelSymptoms1.TabIndex = 2
@@ -88,7 +89,7 @@ Partial Class ContactTracing2
         'LabelSymptoms2
         '
         Me.LabelSymptoms2.AutoSize = True
-        Me.LabelSymptoms2.Location = New System.Drawing.Point(49, 250)
+        Me.LabelSymptoms2.Location = New System.Drawing.Point(50, 213)
         Me.LabelSymptoms2.Name = "LabelSymptoms2"
         Me.LabelSymptoms2.Size = New System.Drawing.Size(139, 15)
         Me.LabelSymptoms2.TabIndex = 3
@@ -97,7 +98,7 @@ Partial Class ContactTracing2
         'LabelLabelSymptoms3
         '
         Me.LabelLabelSymptoms3.AutoSize = True
-        Me.LabelLabelSymptoms3.Location = New System.Drawing.Point(49, 330)
+        Me.LabelLabelSymptoms3.Location = New System.Drawing.Point(50, 293)
         Me.LabelLabelSymptoms3.Name = "LabelLabelSymptoms3"
         Me.LabelLabelSymptoms3.Size = New System.Drawing.Size(67, 15)
         Me.LabelLabelSymptoms3.TabIndex = 4
@@ -106,7 +107,7 @@ Partial Class ContactTracing2
         'LabelExposure
         '
         Me.LabelExposure.AutoSize = True
-        Me.LabelExposure.Location = New System.Drawing.Point(363, 108)
+        Me.LabelExposure.Location = New System.Drawing.Point(364, 71)
         Me.LabelExposure.Name = "LabelExposure"
         Me.LabelExposure.Size = New System.Drawing.Size(55, 15)
         Me.LabelExposure.TabIndex = 5
@@ -115,7 +116,7 @@ Partial Class ContactTracing2
         'LabelExposure1
         '
         Me.LabelExposure1.AutoSize = True
-        Me.LabelExposure1.Location = New System.Drawing.Point(363, 164)
+        Me.LabelExposure1.Location = New System.Drawing.Point(364, 127)
         Me.LabelExposure1.Name = "LabelExposure1"
         Me.LabelExposure1.Size = New System.Drawing.Size(281, 30)
         Me.LabelExposure1.TabIndex = 6
@@ -125,7 +126,7 @@ Partial Class ContactTracing2
         'LabelExposure2
         '
         Me.LabelExposure2.AutoSize = True
-        Me.LabelExposure2.Location = New System.Drawing.Point(363, 250)
+        Me.LabelExposure2.Location = New System.Drawing.Point(364, 213)
         Me.LabelExposure2.Name = "LabelExposure2"
         Me.LabelExposure2.Size = New System.Drawing.Size(291, 30)
         Me.LabelExposure2.TabIndex = 7
@@ -134,7 +135,7 @@ Partial Class ContactTracing2
         'LabelExposure3
         '
         Me.LabelExposure3.AutoSize = True
-        Me.LabelExposure3.Location = New System.Drawing.Point(363, 326)
+        Me.LabelExposure3.Location = New System.Drawing.Point(364, 289)
         Me.LabelExposure3.Name = "LabelExposure3"
         Me.LabelExposure3.Size = New System.Drawing.Size(284, 30)
         Me.LabelExposure3.TabIndex = 8
@@ -145,7 +146,7 @@ Partial Class ContactTracing2
         Me.GroupBoxFour.Controls.Add(Me.RadioButtonExposure1Yes)
         Me.GroupBoxFour.Controls.Add(Me.RadioButtonExposure1No)
         Me.GroupBoxFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBoxFour.Location = New System.Drawing.Point(402, 197)
+        Me.GroupBoxFour.Location = New System.Drawing.Point(403, 160)
         Me.GroupBoxFour.Name = "GroupBoxFour"
         Me.GroupBoxFour.Size = New System.Drawing.Size(102, 45)
         Me.GroupBoxFour.TabIndex = 9
@@ -178,7 +179,7 @@ Partial Class ContactTracing2
         Me.GroupBoxFive.Controls.Add(Me.RadioButtonExposure2Yes)
         Me.GroupBoxFive.Controls.Add(Me.RadioButtonExposure2No)
         Me.GroupBoxFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBoxFive.Location = New System.Drawing.Point(402, 278)
+        Me.GroupBoxFive.Location = New System.Drawing.Point(403, 241)
         Me.GroupBoxFive.Name = "GroupBoxFive"
         Me.GroupBoxFive.Size = New System.Drawing.Size(102, 45)
         Me.GroupBoxFive.TabIndex = 10
@@ -211,7 +212,7 @@ Partial Class ContactTracing2
         Me.GroupBoxSix.Controls.Add(Me.RadioButtonExposure3Yes)
         Me.GroupBoxSix.Controls.Add(Me.RadioButtonExposure3No)
         Me.GroupBoxSix.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBoxSix.Location = New System.Drawing.Point(402, 359)
+        Me.GroupBoxSix.Location = New System.Drawing.Point(403, 322)
         Me.GroupBoxSix.Name = "GroupBoxSix"
         Me.GroupBoxSix.Size = New System.Drawing.Size(102, 45)
         Me.GroupBoxSix.TabIndex = 11
@@ -244,7 +245,7 @@ Partial Class ContactTracing2
         Me.GroupBoxThree.Controls.Add(Me.RadioButtonSymptoms3Yes)
         Me.GroupBoxThree.Controls.Add(Me.RadioButtonSymptoms3No)
         Me.GroupBoxThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBoxThree.Location = New System.Drawing.Point(70, 359)
+        Me.GroupBoxThree.Location = New System.Drawing.Point(71, 322)
         Me.GroupBoxThree.Name = "GroupBoxThree"
         Me.GroupBoxThree.Size = New System.Drawing.Size(102, 45)
         Me.GroupBoxThree.TabIndex = 10
@@ -277,7 +278,7 @@ Partial Class ContactTracing2
         Me.GroupBoxTwo.Controls.Add(Me.RadioButtonSymptoms2Yes)
         Me.GroupBoxTwo.Controls.Add(Me.RadioButtonSymptoms2No)
         Me.GroupBoxTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBoxTwo.Location = New System.Drawing.Point(70, 278)
+        Me.GroupBoxTwo.Location = New System.Drawing.Point(71, 241)
         Me.GroupBoxTwo.Name = "GroupBoxTwo"
         Me.GroupBoxTwo.Size = New System.Drawing.Size(102, 45)
         Me.GroupBoxTwo.TabIndex = 11
@@ -310,7 +311,7 @@ Partial Class ContactTracing2
         Me.GroupBoxOne.Controls.Add(Me.RadioButtonSymptoms1Yes)
         Me.GroupBoxOne.Controls.Add(Me.RadioButtonSymptoms1No)
         Me.GroupBoxOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBoxOne.Location = New System.Drawing.Point(70, 197)
+        Me.GroupBoxOne.Location = New System.Drawing.Point(71, 160)
         Me.GroupBoxOne.Name = "GroupBoxOne"
         Me.GroupBoxOne.Size = New System.Drawing.Size(102, 45)
         Me.GroupBoxOne.TabIndex = 12
@@ -341,17 +342,27 @@ Partial Class ContactTracing2
         'Label10
         '
         Me.Label10.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label10.Location = New System.Drawing.Point(312, 107)
+        Me.Label10.Location = New System.Drawing.Point(313, 70)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(2, 297)
         Me.Label10.TabIndex = 13
         Me.Label10.Text = "1"
+        '
+        'ButtonBackPage3
+        '
+        Me.ButtonBackPage3.Location = New System.Drawing.Point(46, 394)
+        Me.ButtonBackPage3.Name = "ButtonBackPage3"
+        Me.ButtonBackPage3.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBackPage3.TabIndex = 14
+        Me.ButtonBackPage3.Text = "BACK"
+        Me.ButtonBackPage3.UseVisualStyleBackColor = True
         '
         'ContactTracing2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.ButtonBackPage3)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.GroupBoxOne)
         Me.Controls.Add(Me.GroupBoxTwo)
@@ -418,4 +429,5 @@ Partial Class ContactTracing2
     Friend WithEvents RadioButtonSymptoms1Yes As RadioButton
     Friend WithEvents RadioButtonSymptoms1No As RadioButton
     Friend WithEvents Label10 As Label
+    Friend WithEvents ButtonBackPage3 As Button
 End Class
