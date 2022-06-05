@@ -37,6 +37,17 @@ Partial Class ContactTracing3
         Me.LabelExposureQuestion2 = New System.Windows.Forms.Label()
         Me.LabelExposureQuestion3 = New System.Windows.Forms.Label()
         Me.LabelHereby = New System.Windows.Forms.Label()
+        Me.ButtonSubmit = New System.Windows.Forms.Button()
+        Me.Name = New System.Windows.Forms.Label()
+        Me.Email = New System.Windows.Forms.Label()
+        Me.Address = New System.Windows.Forms.Label()
+        Me.Number = New System.Windows.Forms.Label()
+        Me.Coughs = New System.Windows.Forms.Label()
+        Me.Breathing = New System.Windows.Forms.Label()
+        Me.Diarrhea = New System.Windows.Forms.Label()
+        Me.Exposure1 = New System.Windows.Forms.Label()
+        Me.Exposure2 = New System.Windows.Forms.Label()
+        Me.Exposure3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'LabelFullname
@@ -170,11 +181,141 @@ Partial Class ContactTracing3
         Me.LabelHereby.TabIndex = 13
         Me.LabelHereby.Text = resources.GetString("LabelHereby.Text")
         '
+        'ButtonSubmit
+        '
+        Me.ButtonSubmit.Location = New System.Drawing.Point(311, 385)
+        Me.ButtonSubmit.Name = "ButtonSubmit"
+        Me.ButtonSubmit.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSubmit.TabIndex = 14
+        Me.ButtonSubmit.Text = "SUBMIT"
+        Me.ButtonSubmit.UseVisualStyleBackColor = True
+        '
+        'Name
+        '
+        Me.Name.AutoSize = True
+        Me.Name.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Name.ForeColor = System.Drawing.Color.Red
+        Me.Name.Location = New System.Drawing.Point(78, 27)
+        Me.Name.Name = "Name"
+        Me.Name.Size = New System.Drawing.Size(39, 15)
+        Me.Name.TabIndex = 15
+        Me.Name.Text = "Name"
+        '
+        'Email
+        '
+        Me.Email.AutoSize = True
+        Me.Email.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Email.ForeColor = System.Drawing.Color.Red
+        Me.Email.Location = New System.Drawing.Point(58, 46)
+        Me.Email.Name = "Email"
+        Me.Email.Size = New System.Drawing.Size(36, 15)
+        Me.Email.TabIndex = 16
+        Me.Email.Text = "Email"
+        '
+        'Address
+        '
+        Me.Address.AutoSize = True
+        Me.Address.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Address.ForeColor = System.Drawing.Color.Red
+        Me.Address.Location = New System.Drawing.Point(75, 65)
+        Me.Address.Name = "Address"
+        Me.Address.Size = New System.Drawing.Size(49, 15)
+        Me.Address.TabIndex = 17
+        Me.Address.Text = "Address"
+        '
+        'Number
+        '
+        Me.Number.AutoSize = True
+        Me.Number.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Number.ForeColor = System.Drawing.Color.Red
+        Me.Number.Location = New System.Drawing.Point(110, 85)
+        Me.Number.Name = "Number"
+        Me.Number.Size = New System.Drawing.Size(51, 15)
+        Me.Number.TabIndex = 18
+        Me.Number.Text = "Number"
+        '
+        'Coughs
+        '
+        Me.Coughs.AutoSize = True
+        Me.Coughs.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Coughs.ForeColor = System.Drawing.Color.Red
+        Me.Coughs.Location = New System.Drawing.Point(145, 127)
+        Me.Coughs.Name = "Coughs"
+        Me.Coughs.Size = New System.Drawing.Size(47, 15)
+        Me.Coughs.TabIndex = 19
+        Me.Coughs.Text = "Coughs"
+        '
+        'Breathing
+        '
+        Me.Breathing.AutoSize = True
+        Me.Breathing.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Breathing.ForeColor = System.Drawing.Color.Red
+        Me.Breathing.Location = New System.Drawing.Point(145, 146)
+        Me.Breathing.Name = "Breathing"
+        Me.Breathing.Size = New System.Drawing.Size(58, 15)
+        Me.Breathing.TabIndex = 20
+        Me.Breathing.Text = "Breathing"
+        '
+        'Diarrhea
+        '
+        Me.Diarrhea.AutoSize = True
+        Me.Diarrhea.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Diarrhea.ForeColor = System.Drawing.Color.Red
+        Me.Diarrhea.Location = New System.Drawing.Point(75, 167)
+        Me.Diarrhea.Name = "Diarrhea"
+        Me.Diarrhea.Size = New System.Drawing.Size(52, 15)
+        Me.Diarrhea.TabIndex = 21
+        Me.Diarrhea.Text = "Diarrhea"
+        '
+        'Exposure1
+        '
+        Me.Exposure1.AutoSize = True
+        Me.Exposure1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Exposure1.ForeColor = System.Drawing.Color.Red
+        Me.Exposure1.Location = New System.Drawing.Point(158, 227)
+        Me.Exposure1.Name = "Exposure1"
+        Me.Exposure1.Size = New System.Drawing.Size(60, 15)
+        Me.Exposure1.TabIndex = 22
+        Me.Exposure1.Text = "Exposure1"
+        '
+        'Exposure2
+        '
+        Me.Exposure2.AutoSize = True
+        Me.Exposure2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Exposure2.ForeColor = System.Drawing.Color.Red
+        Me.Exposure2.Location = New System.Drawing.Point(389, 250)
+        Me.Exposure2.Name = "Exposure2"
+        Me.Exposure2.Size = New System.Drawing.Size(62, 15)
+        Me.Exposure2.TabIndex = 23
+        Me.Exposure2.Text = "Exposure2"
+        '
+        'Exposure3
+        '
+        Me.Exposure3.AutoSize = True
+        Me.Exposure3.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Exposure3.ForeColor = System.Drawing.Color.Red
+        Me.Exposure3.Location = New System.Drawing.Point(346, 273)
+        Me.Exposure3.Name = "Exposure3"
+        Me.Exposure3.Size = New System.Drawing.Size(62, 15)
+        Me.Exposure3.TabIndex = 24
+        Me.Exposure3.Text = "Exposure3"
+        '
         'ContactTracing3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.Exposure3)
+        Me.Controls.Add(Me.Exposure2)
+        Me.Controls.Add(Me.Exposure1)
+        Me.Controls.Add(Me.Diarrhea)
+        Me.Controls.Add(Me.Breathing)
+        Me.Controls.Add(Me.Coughs)
+        Me.Controls.Add(Me.Number)
+        Me.Controls.Add(Me.Address)
+        Me.Controls.Add(Me.Email)
+        Me.Controls.Add(Me.Name)
+        Me.Controls.Add(Me.ButtonSubmit)
         Me.Controls.Add(Me.LabelHereby)
         Me.Controls.Add(Me.LabelExposureQuestion3)
         Me.Controls.Add(Me.LabelExposureQuestion2)
@@ -213,4 +354,15 @@ Partial Class ContactTracing3
     Friend WithEvents LabelExposureQuestion2 As Label
     Friend WithEvents LabelExposureQuestion3 As Label
     Friend WithEvents LabelHereby As Label
+    Friend WithEvents ButtonSubmit As Button
+    Friend WithEvents Name As Label
+    Friend WithEvents Email As Label
+    Friend WithEvents Address As Label
+    Friend WithEvents Number As Label
+    Friend WithEvents Coughs As Label
+    Friend WithEvents Breathing As Label
+    Friend WithEvents Diarrhea As Label
+    Friend WithEvents Exposure1 As Label
+    Friend WithEvents Exposure2 As Label
+    Friend WithEvents Exposure3 As Label
 End Class
