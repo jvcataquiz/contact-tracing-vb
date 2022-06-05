@@ -1,10 +1,12 @@
 ﻿Public Class ContactTracing
-    'if the user turn on or off the capslock it will work
+    'i declare this string to use it public and if the user turn on or off the capslock it will work
     Dim allowedChars As String = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     Dim digits As String = "1234567890"
 
+    'when this button clicked, it has a function to show the next page and closing this page
     Private Sub ButtonNextPage2_Click(sender As Object, e As EventArgs) Handles ButtonNextPage2.Click
         Try
+
             Dim Page3 As New ContactTracing2
             Me.Hide()
             Page3.Show()
@@ -15,7 +17,7 @@
         End Try
 
     End Sub
-
+    'i used this clock to become an updater for the input of the user
     Private Sub AutoUpdate_Tick(sender As Object, e As EventArgs) Handles AutoUpdate.Tick
         Try
             'This if else statement is for SurnameTextbox to validate the input of the user
@@ -24,20 +26,20 @@
             Else
                 SurnameError.Visible = False
             End If
-
+            'This if else statement is for FirstnameTextbox to validate the input of the user
             If TextBoxFirstName.Text.Length = 1 Then
                 FirstnameError.Visible = True
             Else
                 FirstnameError.Visible = False
             End If
-
+            'This if else statement is for Address to validate the input of the user
             If RichTextBoxAddress.Text.Length = 1 Then
                 AddressError.Visible = True
             Else
                 AddressError.Visible = False
             End If
 
-
+            'This if else statement is for Email to validate the input of the user
             If TextBoxEmail.Text.Equals("") Then
                 EmailError.Visible = False
             ElseIf Not TextBoxEmail.Text.Contains("@gmail.com") Then
@@ -46,8 +48,7 @@
                 EmailError.Visible = False
             End If
 
-
-
+            'This if else statement is for PhoneNumber to validate the input of the user
             If TextBoxPhoneNumber.Text.Equals("") Then
                 PhonenumberError.Visible = False
             ElseIf Not TextBoxPhoneNumber.Text.StartsWith("0") Then
@@ -60,7 +61,10 @@
             MessageBox.Show("Something's Wrong!!!")
         End Try
     End Sub
+
+    'i create this function to minimize the space and i can use it for those element i can limit only with text
     Sub AlphabetOnly(key)
+        'note the e.keychar = 8 means BACKSPACE
         Try
             If Not (Asc(key.KeyChar) = 8) Then
                 If Not allowedChars.Contains(key.KeyChar.ToString) Then
@@ -73,19 +77,25 @@
 
     End Sub
     Private Sub SurnameTextbox(sender As Object, e As KeyPressEventArgs) Handles TextBoxSurname.KeyPress
+
+        'calling the function AlphabetOnly with parameter
         AlphabetOnly(e)
     End Sub
 
     Private Sub FirstNameTextbox(sender As Object, e As KeyPressEventArgs) Handles TextBoxFirstName.KeyPress
+        'calling the function AlphabetOnly with parameter
         AlphabetOnly(e)
     End Sub
 
     Private Sub MiddleinitialTextbox(sender As Object, e As KeyPressEventArgs) Handles TextBoxMiddleInitial.KeyPress
+        'calling the function AlphabetOnly with parameter
         AlphabetOnly(e)
     End Sub
 
+    'i used this event to input numbers only
     Private Sub PhoneNumberOnly(sender As Object, e As KeyPressEventArgs) Handles TextBoxPhoneNumber.KeyPress
         Try
+            'note the e.keychar = 8 means BACKSPACE
             If Not (Asc(e.KeyChar) = 8) Then
                 If Not digits.Contains(e.KeyChar.ToString) Then
                     e.Handled = True
