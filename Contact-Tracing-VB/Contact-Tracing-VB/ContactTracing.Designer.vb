@@ -105,6 +105,7 @@ Partial Class ContactTracing
         '
         'TextBoxFirstName
         '
+        Me.TextBoxFirstName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBoxFirstName.Location = New System.Drawing.Point(352, 183)
         Me.TextBoxFirstName.Name = "TextBoxFirstName"
         Me.TextBoxFirstName.Size = New System.Drawing.Size(160, 23)
@@ -113,7 +114,9 @@ Partial Class ContactTracing
         '
         'TextBoxMiddleInitial
         '
+        Me.TextBoxMiddleInitial.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBoxMiddleInitial.Location = New System.Drawing.Point(615, 183)
+        Me.TextBoxMiddleInitial.MaxLength = 1
         Me.TextBoxMiddleInitial.Name = "TextBoxMiddleInitial"
         Me.TextBoxMiddleInitial.Size = New System.Drawing.Size(49, 23)
         Me.TextBoxMiddleInitial.TabIndex = 7
@@ -166,6 +169,7 @@ Partial Class ContactTracing
         'TextBoxPhoneNumber
         '
         Me.TextBoxPhoneNumber.Location = New System.Drawing.Point(466, 334)
+        Me.TextBoxPhoneNumber.MaxLength = 11
         Me.TextBoxPhoneNumber.Name = "TextBoxPhoneNumber"
         Me.TextBoxPhoneNumber.Size = New System.Drawing.Size(198, 23)
         Me.TextBoxPhoneNumber.TabIndex = 14
