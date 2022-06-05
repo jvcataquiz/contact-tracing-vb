@@ -153,6 +153,7 @@ Partial Class ContactTracing
         '
         Me.TextBoxEmail.Location = New System.Drawing.Point(72, 334)
         Me.TextBoxEmail.Name = "TextBoxEmail"
+        Me.TextBoxEmail.PlaceholderText = "Needed email with @gmail.com"
         Me.TextBoxEmail.Size = New System.Drawing.Size(258, 23)
         Me.TextBoxEmail.TabIndex = 12
         Me.TextBoxEmail.TabStop = False
@@ -171,6 +172,7 @@ Partial Class ContactTracing
         Me.TextBoxPhoneNumber.Location = New System.Drawing.Point(466, 334)
         Me.TextBoxPhoneNumber.MaxLength = 11
         Me.TextBoxPhoneNumber.Name = "TextBoxPhoneNumber"
+        Me.TextBoxPhoneNumber.PlaceholderText = "Start with 09"
         Me.TextBoxPhoneNumber.Size = New System.Drawing.Size(198, 23)
         Me.TextBoxPhoneNumber.TabIndex = 14
         Me.TextBoxPhoneNumber.TabStop = False
