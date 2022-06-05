@@ -51,6 +51,7 @@ Partial Class ContactTracing2
         Me.RadioButtonSymptoms1No = New System.Windows.Forms.RadioButton()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.ButtonBackPage3 = New System.Windows.Forms.Button()
+        Me.ButtonNextPage3 = New System.Windows.Forms.Button()
         Me.GroupBoxFour.SuspendLayout()
         Me.GroupBoxFive.SuspendLayout()
         Me.GroupBoxSix.SuspendLayout()
@@ -159,18 +160,17 @@ Partial Class ContactTracing2
         Me.RadioButtonExposure1Yes.Name = "RadioButtonExposure1Yes"
         Me.RadioButtonExposure1Yes.Size = New System.Drawing.Size(42, 19)
         Me.RadioButtonExposure1Yes.TabIndex = 1
-        Me.RadioButtonExposure1Yes.TabStop = True
         Me.RadioButtonExposure1Yes.Text = "Yes"
         Me.RadioButtonExposure1Yes.UseVisualStyleBackColor = True
         '
         'RadioButtonExposure1No
         '
         Me.RadioButtonExposure1No.AutoSize = True
+        Me.RadioButtonExposure1No.Checked = True
         Me.RadioButtonExposure1No.Location = New System.Drawing.Point(55, 17)
         Me.RadioButtonExposure1No.Name = "RadioButtonExposure1No"
         Me.RadioButtonExposure1No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonExposure1No.TabIndex = 0
-        Me.RadioButtonExposure1No.TabStop = True
         Me.RadioButtonExposure1No.Text = "No"
         Me.RadioButtonExposure1No.UseVisualStyleBackColor = True
         '
@@ -192,18 +192,17 @@ Partial Class ContactTracing2
         Me.RadioButtonExposure2Yes.Name = "RadioButtonExposure2Yes"
         Me.RadioButtonExposure2Yes.Size = New System.Drawing.Size(42, 19)
         Me.RadioButtonExposure2Yes.TabIndex = 1
-        Me.RadioButtonExposure2Yes.TabStop = True
         Me.RadioButtonExposure2Yes.Text = "Yes"
         Me.RadioButtonExposure2Yes.UseVisualStyleBackColor = True
         '
         'RadioButtonExposure2No
         '
         Me.RadioButtonExposure2No.AutoSize = True
+        Me.RadioButtonExposure2No.Checked = True
         Me.RadioButtonExposure2No.Location = New System.Drawing.Point(55, 17)
         Me.RadioButtonExposure2No.Name = "RadioButtonExposure2No"
         Me.RadioButtonExposure2No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonExposure2No.TabIndex = 0
-        Me.RadioButtonExposure2No.TabStop = True
         Me.RadioButtonExposure2No.Text = "No"
         Me.RadioButtonExposure2No.UseVisualStyleBackColor = True
         '
@@ -225,18 +224,17 @@ Partial Class ContactTracing2
         Me.RadioButtonExposure3Yes.Name = "RadioButtonExposure3Yes"
         Me.RadioButtonExposure3Yes.Size = New System.Drawing.Size(42, 19)
         Me.RadioButtonExposure3Yes.TabIndex = 1
-        Me.RadioButtonExposure3Yes.TabStop = True
         Me.RadioButtonExposure3Yes.Text = "Yes"
         Me.RadioButtonExposure3Yes.UseVisualStyleBackColor = True
         '
         'RadioButtonExposure3No
         '
         Me.RadioButtonExposure3No.AutoSize = True
+        Me.RadioButtonExposure3No.Checked = True
         Me.RadioButtonExposure3No.Location = New System.Drawing.Point(55, 17)
         Me.RadioButtonExposure3No.Name = "RadioButtonExposure3No"
         Me.RadioButtonExposure3No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonExposure3No.TabIndex = 0
-        Me.RadioButtonExposure3No.TabStop = True
         Me.RadioButtonExposure3No.Text = "No"
         Me.RadioButtonExposure3No.UseVisualStyleBackColor = True
         '
@@ -258,18 +256,17 @@ Partial Class ContactTracing2
         Me.RadioButtonSymptoms3Yes.Name = "RadioButtonSymptoms3Yes"
         Me.RadioButtonSymptoms3Yes.Size = New System.Drawing.Size(42, 19)
         Me.RadioButtonSymptoms3Yes.TabIndex = 1
-        Me.RadioButtonSymptoms3Yes.TabStop = True
         Me.RadioButtonSymptoms3Yes.Text = "Yes"
         Me.RadioButtonSymptoms3Yes.UseVisualStyleBackColor = True
         '
         'RadioButtonSymptoms3No
         '
         Me.RadioButtonSymptoms3No.AutoSize = True
+        Me.RadioButtonSymptoms3No.Checked = True
         Me.RadioButtonSymptoms3No.Location = New System.Drawing.Point(55, 17)
         Me.RadioButtonSymptoms3No.Name = "RadioButtonSymptoms3No"
         Me.RadioButtonSymptoms3No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonSymptoms3No.TabIndex = 0
-        Me.RadioButtonSymptoms3No.TabStop = True
         Me.RadioButtonSymptoms3No.Text = "No"
         Me.RadioButtonSymptoms3No.UseVisualStyleBackColor = True
         '
@@ -291,18 +288,17 @@ Partial Class ContactTracing2
         Me.RadioButtonSymptoms2Yes.Name = "RadioButtonSymptoms2Yes"
         Me.RadioButtonSymptoms2Yes.Size = New System.Drawing.Size(42, 19)
         Me.RadioButtonSymptoms2Yes.TabIndex = 1
-        Me.RadioButtonSymptoms2Yes.TabStop = True
         Me.RadioButtonSymptoms2Yes.Text = "Yes"
         Me.RadioButtonSymptoms2Yes.UseVisualStyleBackColor = True
         '
         'RadioButtonSymptoms2No
         '
         Me.RadioButtonSymptoms2No.AutoSize = True
+        Me.RadioButtonSymptoms2No.Checked = True
         Me.RadioButtonSymptoms2No.Location = New System.Drawing.Point(55, 17)
         Me.RadioButtonSymptoms2No.Name = "RadioButtonSymptoms2No"
         Me.RadioButtonSymptoms2No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonSymptoms2No.TabIndex = 0
-        Me.RadioButtonSymptoms2No.TabStop = True
         Me.RadioButtonSymptoms2No.Text = "No"
         Me.RadioButtonSymptoms2No.UseVisualStyleBackColor = True
         '
@@ -324,13 +320,13 @@ Partial Class ContactTracing2
         Me.RadioButtonSymptoms1Yes.Name = "RadioButtonSymptoms1Yes"
         Me.RadioButtonSymptoms1Yes.Size = New System.Drawing.Size(42, 19)
         Me.RadioButtonSymptoms1Yes.TabIndex = 1
-        Me.RadioButtonSymptoms1Yes.TabStop = True
         Me.RadioButtonSymptoms1Yes.Text = "Yes"
         Me.RadioButtonSymptoms1Yes.UseVisualStyleBackColor = True
         '
         'RadioButtonSymptoms1No
         '
         Me.RadioButtonSymptoms1No.AutoSize = True
+        Me.RadioButtonSymptoms1No.Checked = True
         Me.RadioButtonSymptoms1No.Location = New System.Drawing.Point(55, 17)
         Me.RadioButtonSymptoms1No.Name = "RadioButtonSymptoms1No"
         Me.RadioButtonSymptoms1No.Size = New System.Drawing.Size(41, 19)
@@ -357,11 +353,21 @@ Partial Class ContactTracing2
         Me.ButtonBackPage3.Text = "BACK"
         Me.ButtonBackPage3.UseVisualStyleBackColor = True
         '
+        'ButtonNextPage3
+        '
+        Me.ButtonNextPage3.Location = New System.Drawing.Point(580, 394)
+        Me.ButtonNextPage3.Name = "ButtonNextPage3"
+        Me.ButtonNextPage3.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNextPage3.TabIndex = 15
+        Me.ButtonNextPage3.Text = "NEXT"
+        Me.ButtonNextPage3.UseVisualStyleBackColor = True
+        '
         'ContactTracing2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.ButtonNextPage3)
         Me.Controls.Add(Me.ButtonBackPage3)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.GroupBoxOne)
@@ -430,4 +436,5 @@ Partial Class ContactTracing2
     Friend WithEvents RadioButtonSymptoms1No As RadioButton
     Friend WithEvents Label10 As Label
     Friend WithEvents ButtonBackPage3 As Button
+    Friend WithEvents ButtonNextPage3 As Button
 End Class

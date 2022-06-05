@@ -22,6 +22,7 @@ Partial Class ContactTracing
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.LabelInstruction = New System.Windows.Forms.Label()
         Me.LabelSurname = New System.Windows.Forms.Label()
         Me.LabelFirstName = New System.Windows.Forms.Label()
@@ -38,6 +39,12 @@ Partial Class ContactTracing
         Me.TextBoxPhoneNumber = New System.Windows.Forms.TextBox()
         Me.LabelPhoneNumber = New System.Windows.Forms.Label()
         Me.ButtonNextPage2 = New System.Windows.Forms.Button()
+        Me.SurnameError = New System.Windows.Forms.Label()
+        Me.FirstnameError = New System.Windows.Forms.Label()
+        Me.EmailError = New System.Windows.Forms.Label()
+        Me.PhonenumberError = New System.Windows.Forms.Label()
+        Me.AutoUpdate = New System.Windows.Forms.Timer(Me.components)
+        Me.AddressError = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'LabelInstruction
@@ -89,6 +96,7 @@ Partial Class ContactTracing
         '
         'TextBoxSurname
         '
+        Me.TextBoxSurname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBoxSurname.Location = New System.Drawing.Point(89, 183)
         Me.TextBoxSurname.Name = "TextBoxSurname"
         Me.TextBoxSurname.Size = New System.Drawing.Size(176, 23)
@@ -130,7 +138,7 @@ Partial Class ContactTracing
         '
         'RichTextBoxAddress
         '
-        Me.RichTextBoxAddress.Location = New System.Drawing.Point(21, 257)
+        Me.RichTextBoxAddress.Location = New System.Drawing.Point(21, 251)
         Me.RichTextBoxAddress.Name = "RichTextBoxAddress"
         Me.RichTextBoxAddress.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
         Me.RichTextBoxAddress.Size = New System.Drawing.Size(645, 53)
@@ -174,6 +182,7 @@ Partial Class ContactTracing
         '
         'ButtonNextPage2
         '
+        Me.ButtonNextPage2.Enabled = False
         Me.ButtonNextPage2.Location = New System.Drawing.Point(589, 387)
         Me.ButtonNextPage2.Name = "ButtonNextPage2"
         Me.ButtonNextPage2.Size = New System.Drawing.Size(75, 23)
@@ -182,11 +191,75 @@ Partial Class ContactTracing
         Me.ButtonNextPage2.Text = "NEXT"
         Me.ButtonNextPage2.UseVisualStyleBackColor = True
         '
+        'SurnameError
+        '
+        Me.SurnameError.AutoSize = True
+        Me.SurnameError.ForeColor = System.Drawing.Color.Red
+        Me.SurnameError.Location = New System.Drawing.Point(89, 209)
+        Me.SurnameError.Name = "SurnameError"
+        Me.SurnameError.Size = New System.Drawing.Size(157, 15)
+        Me.SurnameError.TabIndex = 16
+        Me.SurnameError.Text = "Please enter a valid Surname"
+        Me.SurnameError.Visible = False
+        '
+        'FirstnameError
+        '
+        Me.FirstnameError.AutoSize = True
+        Me.FirstnameError.ForeColor = System.Drawing.Color.Red
+        Me.FirstnameError.Location = New System.Drawing.Point(352, 209)
+        Me.FirstnameError.Name = "FirstnameError"
+        Me.FirstnameError.Size = New System.Drawing.Size(162, 15)
+        Me.FirstnameError.TabIndex = 17
+        Me.FirstnameError.Text = "Please enter a valid Firstname"
+        Me.FirstnameError.Visible = False
+        '
+        'EmailError
+        '
+        Me.EmailError.AutoSize = True
+        Me.EmailError.ForeColor = System.Drawing.Color.Red
+        Me.EmailError.Location = New System.Drawing.Point(72, 360)
+        Me.EmailError.Name = "EmailError"
+        Me.EmailError.Size = New System.Drawing.Size(139, 15)
+        Me.EmailError.TabIndex = 19
+        Me.EmailError.Text = "Please enter a valid Email"
+        Me.EmailError.Visible = False
+        '
+        'PhonenumberError
+        '
+        Me.PhonenumberError.AutoSize = True
+        Me.PhonenumberError.ForeColor = System.Drawing.Color.Red
+        Me.PhonenumberError.Location = New System.Drawing.Point(466, 360)
+        Me.PhonenumberError.Name = "PhonenumberError"
+        Me.PhonenumberError.Size = New System.Drawing.Size(191, 15)
+        Me.PhonenumberError.TabIndex = 20
+        Me.PhonenumberError.Text = "Please enter a valid Phone Number"
+        Me.PhonenumberError.Visible = False
+        '
+        'AutoUpdate
+        '
+        Me.AutoUpdate.Enabled = True
+        '
+        'AddressError
+        '
+        Me.AddressError.AutoSize = True
+        Me.AddressError.ForeColor = System.Drawing.Color.Red
+        Me.AddressError.Location = New System.Drawing.Point(22, 310)
+        Me.AddressError.Name = "AddressError"
+        Me.AddressError.Size = New System.Drawing.Size(152, 15)
+        Me.AddressError.TabIndex = 21
+        Me.AddressError.Text = "Please enter a valid Address"
+        Me.AddressError.Visible = False
+        '
         'ContactTracing
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.AddressError)
+        Me.Controls.Add(Me.PhonenumberError)
+        Me.Controls.Add(Me.EmailError)
+        Me.Controls.Add(Me.FirstnameError)
+        Me.Controls.Add(Me.SurnameError)
         Me.Controls.Add(Me.ButtonNextPage2)
         Me.Controls.Add(Me.TextBoxPhoneNumber)
         Me.Controls.Add(Me.LabelPhoneNumber)
@@ -229,4 +302,10 @@ Partial Class ContactTracing
     Friend WithEvents TextBoxPhoneNumber As TextBox
     Friend WithEvents LabelPhoneNumber As Label
     Friend WithEvents ButtonNextPage2 As Button
+    Friend WithEvents SurnameError As Label
+    Friend WithEvents FirstnameError As Label
+    Friend WithEvents EmailError As Label
+    Friend WithEvents PhonenumberError As Label
+    Friend WithEvents AutoUpdate As Timer
+    Friend WithEvents AddressError As Label
 End Class
