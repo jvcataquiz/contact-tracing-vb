@@ -8,6 +8,14 @@
         Try
 
             Dim Page3 As New ContactTracing2
+
+
+            Page3.f_name = TextBoxFirstName.Text + " " + TextBoxMiddleInitial.Text + ". " + TextBoxSurname.Text
+            Page3.email_add = TextBoxEmail.Text
+            Page3.add = RichTextBoxAddress.Text
+            Page3.ph_number = TextBoxPhoneNumber.Text
+            Page3.label_date = DateTimePickerNowDate.Text
+
             Me.Hide()
             Page3.Show()
 
@@ -53,10 +61,16 @@
                 PhonenumberError.Visible = False
             ElseIf Not TextBoxPhoneNumber.Text.StartsWith("0") Then
                 PhonenumberError.Visible = True
+                PhonenumberError.Text = "Phone Number must start with 0"
+            ElseIf TextBoxPhoneNumber.Text.Length < 11 Then
+                PhonenumberError.Visible = True
+                PhonenumberError.Text = "Phone Number must be 11 digits"
             Else
                 PhonenumberError.Visible = False
             End If
 
+
+            'using this condition i short my code it can determine whether the textbox is not empty and not equal to 1
             If TextBoxSurname.Text.Length > 1 And TextBoxFirstName.Text.Length > 1 And
              RichTextBoxAddress.Text.Length > 1 And TextBoxEmail.Text.Length > 1 And
                TextBoxPhoneNumber.Text.Length > 1 Then

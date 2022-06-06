@@ -38,7 +38,7 @@ Partial Class ContactTracing3
         Me.LabelExposureQuestion3 = New System.Windows.Forms.Label()
         Me.LabelHereby = New System.Windows.Forms.Label()
         Me.ButtonSubmit = New System.Windows.Forms.Button()
-        Me.Name = New System.Windows.Forms.Label()
+        Me.FullName = New System.Windows.Forms.Label()
         Me.Email = New System.Windows.Forms.Label()
         Me.Address = New System.Windows.Forms.Label()
         Me.Number = New System.Windows.Forms.Label()
@@ -48,6 +48,9 @@ Partial Class ContactTracing3
         Me.Exposure1 = New System.Windows.Forms.Label()
         Me.Exposure2 = New System.Windows.Forms.Label()
         Me.Exposure3 = New System.Windows.Forms.Label()
+        Me.LabelDate = New System.Windows.Forms.Label()
+        Me.DateLabel = New System.Windows.Forms.Label()
+        Me.ButtonBack = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LabelFullname
@@ -183,23 +186,23 @@ Partial Class ContactTracing3
         '
         'ButtonSubmit
         '
-        Me.ButtonSubmit.Location = New System.Drawing.Point(311, 385)
+        Me.ButtonSubmit.Location = New System.Drawing.Point(567, 387)
         Me.ButtonSubmit.Name = "ButtonSubmit"
         Me.ButtonSubmit.Size = New System.Drawing.Size(75, 23)
         Me.ButtonSubmit.TabIndex = 14
         Me.ButtonSubmit.Text = "SUBMIT"
         Me.ButtonSubmit.UseVisualStyleBackColor = True
         '
-        'Name
+        'FullName
         '
-        Me.Name.AutoSize = True
-        Me.Name.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Name.ForeColor = System.Drawing.Color.Red
-        Me.Name.Location = New System.Drawing.Point(78, 27)
-        Me.Name.Name = "Name"
-        Me.Name.Size = New System.Drawing.Size(39, 15)
-        Me.Name.TabIndex = 15
-        Me.Name.Text = "Name"
+        Me.FullName.AutoSize = True
+        Me.FullName.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.FullName.ForeColor = System.Drawing.Color.Red
+        Me.FullName.Location = New System.Drawing.Point(78, 27)
+        Me.FullName.Name = "FullName"
+        Me.FullName.Size = New System.Drawing.Size(39, 15)
+        Me.FullName.TabIndex = 15
+        Me.FullName.Text = "Name"
         '
         'Email
         '
@@ -300,11 +303,43 @@ Partial Class ContactTracing3
         Me.Exposure3.TabIndex = 24
         Me.Exposure3.Text = "Exposure3"
         '
+        'LabelDate
+        '
+        Me.LabelDate.AutoSize = True
+        Me.LabelDate.Location = New System.Drawing.Point(488, 27)
+        Me.LabelDate.Name = "LabelDate"
+        Me.LabelDate.Size = New System.Drawing.Size(34, 15)
+        Me.LabelDate.TabIndex = 25
+        Me.LabelDate.Text = "Date:"
+        '
+        'DateLabel
+        '
+        Me.DateLabel.AutoSize = True
+        Me.DateLabel.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.DateLabel.ForeColor = System.Drawing.Color.Red
+        Me.DateLabel.Location = New System.Drawing.Point(522, 27)
+        Me.DateLabel.Name = "DateLabel"
+        Me.DateLabel.Size = New System.Drawing.Size(30, 15)
+        Me.DateLabel.TabIndex = 26
+        Me.DateLabel.Text = "date"
+        '
+        'ButtonBack
+        '
+        Me.ButtonBack.Location = New System.Drawing.Point(23, 389)
+        Me.ButtonBack.Name = "ButtonBack"
+        Me.ButtonBack.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBack.TabIndex = 27
+        Me.ButtonBack.Text = "BACK"
+        Me.ButtonBack.UseVisualStyleBackColor = True
+        '
         'ContactTracing3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.ButtonBack)
+        Me.Controls.Add(Me.DateLabel)
+        Me.Controls.Add(Me.LabelDate)
         Me.Controls.Add(Me.Exposure3)
         Me.Controls.Add(Me.Exposure2)
         Me.Controls.Add(Me.Exposure1)
@@ -314,7 +349,7 @@ Partial Class ContactTracing3
         Me.Controls.Add(Me.Number)
         Me.Controls.Add(Me.Address)
         Me.Controls.Add(Me.Email)
-        Me.Controls.Add(Me.Name)
+        Me.Controls.Add(Me.FullName)
         Me.Controls.Add(Me.ButtonSubmit)
         Me.Controls.Add(Me.LabelHereby)
         Me.Controls.Add(Me.LabelExposureQuestion3)
@@ -355,7 +390,7 @@ Partial Class ContactTracing3
     Friend WithEvents LabelExposureQuestion3 As Label
     Friend WithEvents LabelHereby As Label
     Friend WithEvents ButtonSubmit As Button
-    Friend WithEvents Name As Label
+    Friend WithEvents FullName As Label
     Friend WithEvents Email As Label
     Friend WithEvents Address As Label
     Friend WithEvents Number As Label
@@ -365,4 +400,7 @@ Partial Class ContactTracing3
     Friend WithEvents Exposure1 As Label
     Friend WithEvents Exposure2 As Label
     Friend WithEvents Exposure3 As Label
+    Friend WithEvents LabelDate As Label
+    Friend WithEvents DateLabel As Label
+    Friend WithEvents ButtonBack As Button
 End Class

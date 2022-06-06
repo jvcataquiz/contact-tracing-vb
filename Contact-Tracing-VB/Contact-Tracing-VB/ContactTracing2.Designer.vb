@@ -171,6 +171,7 @@ Partial Class ContactTracing2
         Me.RadioButtonExposure1No.Name = "RadioButtonExposure1No"
         Me.RadioButtonExposure1No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonExposure1No.TabIndex = 0
+        Me.RadioButtonExposure1No.TabStop = True
         Me.RadioButtonExposure1No.Text = "No"
         Me.RadioButtonExposure1No.UseVisualStyleBackColor = True
         '
@@ -203,6 +204,7 @@ Partial Class ContactTracing2
         Me.RadioButtonExposure2No.Name = "RadioButtonExposure2No"
         Me.RadioButtonExposure2No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonExposure2No.TabIndex = 0
+        Me.RadioButtonExposure2No.TabStop = True
         Me.RadioButtonExposure2No.Text = "No"
         Me.RadioButtonExposure2No.UseVisualStyleBackColor = True
         '
@@ -235,6 +237,7 @@ Partial Class ContactTracing2
         Me.RadioButtonExposure3No.Name = "RadioButtonExposure3No"
         Me.RadioButtonExposure3No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonExposure3No.TabIndex = 0
+        Me.RadioButtonExposure3No.TabStop = True
         Me.RadioButtonExposure3No.Text = "No"
         Me.RadioButtonExposure3No.UseVisualStyleBackColor = True
         '
@@ -267,6 +270,7 @@ Partial Class ContactTracing2
         Me.RadioButtonSymptoms3No.Name = "RadioButtonSymptoms3No"
         Me.RadioButtonSymptoms3No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonSymptoms3No.TabIndex = 0
+        Me.RadioButtonSymptoms3No.TabStop = True
         Me.RadioButtonSymptoms3No.Text = "No"
         Me.RadioButtonSymptoms3No.UseVisualStyleBackColor = True
         '
@@ -299,6 +303,7 @@ Partial Class ContactTracing2
         Me.RadioButtonSymptoms2No.Name = "RadioButtonSymptoms2No"
         Me.RadioButtonSymptoms2No.Size = New System.Drawing.Size(41, 19)
         Me.RadioButtonSymptoms2No.TabIndex = 0
+        Me.RadioButtonSymptoms2No.TabStop = True
         Me.RadioButtonSymptoms2No.Text = "No"
         Me.RadioButtonSymptoms2No.UseVisualStyleBackColor = True
         '

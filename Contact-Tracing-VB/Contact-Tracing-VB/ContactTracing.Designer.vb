@@ -45,6 +45,7 @@ Partial Class ContactTracing
         Me.PhonenumberError = New System.Windows.Forms.Label()
         Me.AutoUpdate = New System.Windows.Forms.Timer(Me.components)
         Me.AddressError = New System.Windows.Forms.Label()
+        Me.ButtonBack = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LabelInstruction
@@ -256,11 +257,23 @@ Partial Class ContactTracing
         Me.AddressError.Text = "Please enter a valid Address"
         Me.AddressError.Visible = False
         '
+        'ButtonBack
+        '
+        Me.ButtonBack.Enabled = False
+        Me.ButtonBack.Location = New System.Drawing.Point(21, 387)
+        Me.ButtonBack.Name = "ButtonBack"
+        Me.ButtonBack.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBack.TabIndex = 22
+        Me.ButtonBack.TabStop = False
+        Me.ButtonBack.Text = "NEXT"
+        Me.ButtonBack.UseVisualStyleBackColor = True
+        '
         'ContactTracing
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.ButtonBack)
         Me.Controls.Add(Me.AddressError)
         Me.Controls.Add(Me.PhonenumberError)
         Me.Controls.Add(Me.EmailError)
@@ -314,4 +327,5 @@ Partial Class ContactTracing
     Friend WithEvents PhonenumberError As Label
     Friend WithEvents AutoUpdate As Timer
     Friend WithEvents AddressError As Label
+    Friend WithEvents ButtonBack As Button
 End Class
