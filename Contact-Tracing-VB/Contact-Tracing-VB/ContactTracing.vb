@@ -73,7 +73,7 @@
             'using this condition i short my code it can determine whether the textbox is not empty and not equal to 1
             If TextBoxSurname.Text.Length > 1 And TextBoxFirstName.Text.Length > 1 And
              RichTextBoxAddress.Text.Length > 1 And TextBoxEmail.Text.Length > 1 And
-               TextBoxPhoneNumber.Text.Length > 1 Then
+               TextBoxPhoneNumber.Text.Length = 11 Then
                 ButtonNextPage2.Enabled = True
             Else
                 ButtonNextPage2.Enabled = False
