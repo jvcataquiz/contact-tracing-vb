@@ -23,6 +23,7 @@ Partial Class ContactTracing
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ContactTracing))
         Me.LabelInstruction = New System.Windows.Forms.Label()
         Me.LabelSurname = New System.Windows.Forms.Label()
         Me.LabelFirstName = New System.Windows.Forms.Label()
@@ -46,14 +47,17 @@ Partial Class ContactTracing
         Me.AutoUpdate = New System.Windows.Forms.Timer(Me.components)
         Me.AddressError = New System.Windows.Forms.Label()
         Me.ButtonBack = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelInstruction
         '
         Me.LabelInstruction.AutoSize = True
-        Me.LabelInstruction.Location = New System.Drawing.Point(27, 104)
+        Me.LabelInstruction.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LabelInstruction.Location = New System.Drawing.Point(7, 108)
         Me.LabelInstruction.Name = "LabelInstruction"
-        Me.LabelInstruction.Size = New System.Drawing.Size(639, 30)
+        Me.LabelInstruction.Size = New System.Drawing.Size(673, 26)
         Me.LabelInstruction.TabIndex = 0
         Me.LabelInstruction.Text = "Please fill up the form below in compliance with DTI and DOLE Interim Guidelines " &
     "on Workplace Prevention and Control " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "of COVID-19. Your cooperation is greatly a" &
@@ -265,8 +269,18 @@ Partial Class ContactTracing
         Me.ButtonBack.Size = New System.Drawing.Size(75, 23)
         Me.ButtonBack.TabIndex = 22
         Me.ButtonBack.TabStop = False
-        Me.ButtonBack.Text = "NEXT"
+        Me.ButtonBack.Text = "BACK"
         Me.ButtonBack.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(-3, 1)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(693, 100)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 23
+        Me.PictureBox1.TabStop = False
         '
         'ContactTracing
         '
@@ -295,11 +309,13 @@ Partial Class ContactTracing
         Me.Controls.Add(Me.LabelFirstName)
         Me.Controls.Add(Me.LabelSurname)
         Me.Controls.Add(Me.LabelInstruction)
+        Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "ContactTracing"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CONTACT TRACING"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -328,4 +344,5 @@ Partial Class ContactTracing
     Friend WithEvents AutoUpdate As Timer
     Friend WithEvents AddressError As Label
     Friend WithEvents ButtonBack As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
