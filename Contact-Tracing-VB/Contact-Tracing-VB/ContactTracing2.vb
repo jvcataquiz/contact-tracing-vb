@@ -39,4 +39,9 @@
 
     End Function
 
+    Private Sub ButtonBackPage3_Click(sender As Object, e As EventArgs) Handles ButtonBackPage3.Click
+        Dim page1 As New ContactTracing
+        page1.Show()
+        Me.Hide()
+    End Sub
 End Class

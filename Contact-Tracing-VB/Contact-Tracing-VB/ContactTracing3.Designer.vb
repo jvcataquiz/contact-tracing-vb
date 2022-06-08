@@ -51,6 +51,12 @@ Partial Class ContactTracing3
         Me.LabelDate = New System.Windows.Forms.Label()
         Me.DateLabel = New System.Windows.Forms.Label()
         Me.ButtonBack = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelFullname
@@ -183,15 +189,21 @@ Partial Class ContactTracing3
         Me.LabelHereby.Size = New System.Drawing.Size(582, 60)
         Me.LabelHereby.TabIndex = 13
         Me.LabelHereby.Text = resources.GetString("LabelHereby.Text")
+        Me.LabelHereby.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ButtonSubmit
         '
-        Me.ButtonSubmit.Location = New System.Drawing.Point(567, 387)
+        Me.ButtonSubmit.BackColor = System.Drawing.Color.Black
+        Me.ButtonSubmit.FlatAppearance.BorderSize = 0
+        Me.ButtonSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonSubmit.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonSubmit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonSubmit.Location = New System.Drawing.Point(567, 385)
         Me.ButtonSubmit.Name = "ButtonSubmit"
-        Me.ButtonSubmit.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSubmit.Size = New System.Drawing.Size(91, 44)
         Me.ButtonSubmit.TabIndex = 14
         Me.ButtonSubmit.Text = "SUBMIT"
-        Me.ButtonSubmit.UseVisualStyleBackColor = True
+        Me.ButtonSubmit.UseVisualStyleBackColor = False
         '
         'FullName
         '
@@ -325,18 +337,56 @@ Partial Class ContactTracing3
         '
         'ButtonBack
         '
-        Me.ButtonBack.Location = New System.Drawing.Point(23, 389)
+        Me.ButtonBack.BackColor = System.Drawing.Color.Black
+        Me.ButtonBack.FlatAppearance.BorderSize = 0
+        Me.ButtonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonBack.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonBack.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonBack.Location = New System.Drawing.Point(23, 385)
         Me.ButtonBack.Name = "ButtonBack"
-        Me.ButtonBack.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBack.Size = New System.Drawing.Size(75, 44)
         Me.ButtonBack.TabIndex = 27
         Me.ButtonBack.Text = "BACK"
-        Me.ButtonBack.UseVisualStyleBackColor = True
+        Me.ButtonBack.UseVisualStyleBackColor = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(317, 8)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(259, 194)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 28
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(567, 65)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(104, 76)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 29
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(457, 235)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(79, 53)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 30
+        Me.PictureBox3.TabStop = False
         '
         'ContactTracing3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(154, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.ButtonBack)
         Me.Controls.Add(Me.DateLabel)
         Me.Controls.Add(Me.LabelDate)
@@ -365,11 +415,16 @@ Partial Class ContactTracing3
         Me.Controls.Add(Me.LabelAddress)
         Me.Controls.Add(Me.LabelEmail)
         Me.Controls.Add(Me.LabelFullname)
+        Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MaximizeBox = False
         Me.Name = "ContactTracing3"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ContactTracing3"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -403,4 +458,7 @@ Partial Class ContactTracing3
     Friend WithEvents LabelDate As Label
     Friend WithEvents DateLabel As Label
     Friend WithEvents ButtonBack As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
 End Class

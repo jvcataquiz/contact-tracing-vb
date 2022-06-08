@@ -55,7 +55,7 @@ Partial Class ContactTracing
         '
         Me.LabelInstruction.AutoSize = True
         Me.LabelInstruction.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.LabelInstruction.Location = New System.Drawing.Point(7, 108)
+        Me.LabelInstruction.Location = New System.Drawing.Point(7, 109)
         Me.LabelInstruction.Name = "LabelInstruction"
         Me.LabelInstruction.Size = New System.Drawing.Size(673, 26)
         Me.LabelInstruction.TabIndex = 0
@@ -193,14 +193,19 @@ Partial Class ContactTracing
         '
         'ButtonNextPage2
         '
+        Me.ButtonNextPage2.BackColor = System.Drawing.Color.Black
         Me.ButtonNextPage2.Enabled = False
-        Me.ButtonNextPage2.Location = New System.Drawing.Point(589, 387)
+        Me.ButtonNextPage2.FlatAppearance.BorderSize = 0
+        Me.ButtonNextPage2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonNextPage2.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonNextPage2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonNextPage2.Location = New System.Drawing.Point(589, 384)
         Me.ButtonNextPage2.Name = "ButtonNextPage2"
-        Me.ButtonNextPage2.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNextPage2.Size = New System.Drawing.Size(75, 44)
         Me.ButtonNextPage2.TabIndex = 15
         Me.ButtonNextPage2.TabStop = False
         Me.ButtonNextPage2.Text = "NEXT"
-        Me.ButtonNextPage2.UseVisualStyleBackColor = True
+        Me.ButtonNextPage2.UseVisualStyleBackColor = False
         '
         'SurnameError
         '
@@ -263,14 +268,19 @@ Partial Class ContactTracing
         '
         'ButtonBack
         '
+        Me.ButtonBack.BackColor = System.Drawing.Color.Black
         Me.ButtonBack.Enabled = False
-        Me.ButtonBack.Location = New System.Drawing.Point(21, 387)
+        Me.ButtonBack.FlatAppearance.BorderSize = 0
+        Me.ButtonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonBack.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonBack.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonBack.Location = New System.Drawing.Point(21, 384)
         Me.ButtonBack.Name = "ButtonBack"
-        Me.ButtonBack.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBack.Size = New System.Drawing.Size(75, 44)
         Me.ButtonBack.TabIndex = 22
         Me.ButtonBack.TabStop = False
         Me.ButtonBack.Text = "BACK"
-        Me.ButtonBack.UseVisualStyleBackColor = True
+        Me.ButtonBack.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
@@ -286,6 +296,7 @@ Partial Class ContactTracing
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(215, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(687, 437)
         Me.Controls.Add(Me.ButtonBack)
         Me.Controls.Add(Me.AddressError)
@@ -313,6 +324,7 @@ Partial Class ContactTracing
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "ContactTracing"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CONTACT TRACING"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

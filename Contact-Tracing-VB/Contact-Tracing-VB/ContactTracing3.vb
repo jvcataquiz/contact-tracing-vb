@@ -45,4 +45,10 @@
         End If
 
     End Sub
+
+    Private Sub ButtonBack_Click(sender As Object, e As EventArgs) Handles ButtonBack.Click
+        Dim page2 As New ContactTracing2
+        page2.Show()
+        Me.Hide()
+    End Sub
 End Class

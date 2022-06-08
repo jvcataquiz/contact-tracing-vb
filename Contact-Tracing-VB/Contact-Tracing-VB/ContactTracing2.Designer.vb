@@ -52,6 +52,7 @@ Partial Class ContactTracing2
         Me.Label10 = New System.Windows.Forms.Label()
         Me.ButtonBackPage3 = New System.Windows.Forms.Button()
         Me.ButtonNextPage3 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBoxFour.SuspendLayout()
         Me.GroupBoxFive.SuspendLayout()
         Me.GroupBoxSix.SuspendLayout()
@@ -63,16 +64,19 @@ Partial Class ContactTracing2
         'LabelSymptoms
         '
         Me.LabelSymptoms.AutoSize = True
-        Me.LabelSymptoms.Location = New System.Drawing.Point(36, 71)
+        Me.LabelSymptoms.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LabelSymptoms.Location = New System.Drawing.Point(13, 36)
         Me.LabelSymptoms.Name = "LabelSymptoms"
-        Me.LabelSymptoms.Size = New System.Drawing.Size(166, 15)
+        Me.LabelSymptoms.Size = New System.Drawing.Size(302, 23)
         Me.LabelSymptoms.TabIndex = 0
         Me.LabelSymptoms.Text = "Symptoms for the past 14days"
         '
         'LabelSymptomsInstruction
         '
         Me.LabelSymptomsInstruction.AutoSize = True
-        Me.LabelSymptomsInstruction.Location = New System.Drawing.Point(36, 95)
+        Me.LabelSymptomsInstruction.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LabelSymptomsInstruction.ForeColor = System.Drawing.Color.FromArgb(CType(CType(206, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.LabelSymptomsInstruction.Location = New System.Drawing.Point(36, 83)
         Me.LabelSymptomsInstruction.Name = "LabelSymptomsInstruction"
         Me.LabelSymptomsInstruction.Size = New System.Drawing.Size(229, 30)
         Me.LabelSymptomsInstruction.TabIndex = 1
@@ -108,9 +112,11 @@ Partial Class ContactTracing2
         'LabelExposure
         '
         Me.LabelExposure.AutoSize = True
-        Me.LabelExposure.Location = New System.Drawing.Point(364, 71)
+        Me.LabelExposure.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.LabelExposure.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LabelExposure.Location = New System.Drawing.Point(364, 36)
         Me.LabelExposure.Name = "LabelExposure"
-        Me.LabelExposure.Size = New System.Drawing.Size(55, 15)
+        Me.LabelExposure.Size = New System.Drawing.Size(98, 23)
         Me.LabelExposure.TabIndex = 5
         Me.LabelExposure.Text = "Exposure"
         '
@@ -343,7 +349,7 @@ Partial Class ContactTracing2
         'Label10
         '
         Me.Label10.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label10.Location = New System.Drawing.Point(313, 70)
+        Me.Label10.Location = New System.Drawing.Point(327, 70)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(2, 297)
         Me.Label10.TabIndex = 13
@@ -351,27 +357,52 @@ Partial Class ContactTracing2
         '
         'ButtonBackPage3
         '
-        Me.ButtonBackPage3.Location = New System.Drawing.Point(46, 394)
+        Me.ButtonBackPage3.BackColor = System.Drawing.Color.Black
+        Me.ButtonBackPage3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonBackPage3.FlatAppearance.BorderSize = 0
+        Me.ButtonBackPage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonBackPage3.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonBackPage3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonBackPage3.Location = New System.Drawing.Point(27, 383)
         Me.ButtonBackPage3.Name = "ButtonBackPage3"
-        Me.ButtonBackPage3.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBackPage3.Size = New System.Drawing.Size(75, 44)
         Me.ButtonBackPage3.TabIndex = 14
         Me.ButtonBackPage3.Text = "BACK"
-        Me.ButtonBackPage3.UseVisualStyleBackColor = True
+        Me.ButtonBackPage3.UseVisualStyleBackColor = False
         '
         'ButtonNextPage3
         '
-        Me.ButtonNextPage3.Location = New System.Drawing.Point(580, 394)
+        Me.ButtonNextPage3.BackColor = System.Drawing.Color.Black
+        Me.ButtonNextPage3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonNextPage3.FlatAppearance.BorderSize = 0
+        Me.ButtonNextPage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonNextPage3.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonNextPage3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonNextPage3.Location = New System.Drawing.Point(580, 381)
         Me.ButtonNextPage3.Name = "ButtonNextPage3"
-        Me.ButtonNextPage3.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNextPage3.Size = New System.Drawing.Size(75, 44)
         Me.ButtonNextPage3.TabIndex = 15
         Me.ButtonNextPage3.Text = "NEXT"
-        Me.ButtonNextPage3.UseVisualStyleBackColor = True
+        Me.ButtonNextPage3.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(206, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(364, 83)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(229, 30)
+        Me.Label1.TabIndex = 16
+        Me.Label1.Text = "Please indicate if you have experience the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "following symptoms"
         '
         'ContactTracing2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(215, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ButtonNextPage3)
         Me.Controls.Add(Me.ButtonBackPage3)
         Me.Controls.Add(Me.Label10)
@@ -393,6 +424,7 @@ Partial Class ContactTracing2
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "ContactTracing2"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ContactTracing2"
         Me.GroupBoxFour.ResumeLayout(False)
@@ -442,4 +474,5 @@ Partial Class ContactTracing2
     Friend WithEvents Label10 As Label
     Friend WithEvents ButtonBackPage3 As Button
     Friend WithEvents ButtonNextPage3 As Button
+    Friend WithEvents Label1 As Label
 End Class
