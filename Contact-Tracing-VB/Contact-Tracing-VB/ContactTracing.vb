@@ -10,7 +10,10 @@
             Dim Page3 As New ContactTracing2
 
 
-            Page3.f_name = TextBoxFirstName.Text + " " + TextBoxMiddleInitial.Text + ". " + TextBoxSurname.Text
+            Page3.f_name = TextBoxFirstName.Text
+            Page3.s_name = TextBoxSurname.Text
+            Page3.m_name = TextBoxMiddleInitial.Text
+
             Page3.email_add = TextBoxEmail.Text
             Page3.add = RichTextBoxAddress.Text
             Page3.ph_number = TextBoxPhoneNumber.Text
@@ -28,6 +31,7 @@
     'i used this clock to become an updater for the input of the user
     Private Sub AutoUpdate_Tick(sender As Object, e As EventArgs) Handles AutoUpdate.Tick
         Try
+
             'This if else statement is for SurnameTextbox to validate the input of the user
             If TextBoxSurname.Text.Length = 1 Then
                 SurnameError.Visible = True

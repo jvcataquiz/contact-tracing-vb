@@ -357,12 +357,12 @@ Partial Class ContactTracing2
         '
         'ButtonBackPage3
         '
-        Me.ButtonBackPage3.BackColor = System.Drawing.Color.Black
+        Me.ButtonBackPage3.BackColor = System.Drawing.Color.MediumSpringGreen
         Me.ButtonBackPage3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ButtonBackPage3.FlatAppearance.BorderSize = 0
         Me.ButtonBackPage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonBackPage3.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ButtonBackPage3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonBackPage3.ForeColor = System.Drawing.Color.Black
         Me.ButtonBackPage3.Location = New System.Drawing.Point(27, 383)
         Me.ButtonBackPage3.Name = "ButtonBackPage3"
         Me.ButtonBackPage3.Size = New System.Drawing.Size(75, 44)
@@ -372,12 +372,12 @@ Partial Class ContactTracing2
         '
         'ButtonNextPage3
         '
-        Me.ButtonNextPage3.BackColor = System.Drawing.Color.Black
+        Me.ButtonNextPage3.BackColor = System.Drawing.Color.MediumSpringGreen
         Me.ButtonNextPage3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ButtonNextPage3.FlatAppearance.BorderSize = 0
         Me.ButtonNextPage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonNextPage3.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ButtonNextPage3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonNextPage3.ForeColor = System.Drawing.Color.Black
         Me.ButtonNextPage3.Location = New System.Drawing.Point(580, 381)
         Me.ButtonNextPage3.Name = "ButtonNextPage3"
         Me.ButtonNextPage3.Size = New System.Drawing.Size(75, 44)

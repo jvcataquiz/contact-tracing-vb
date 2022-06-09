@@ -193,11 +193,11 @@ Partial Class ContactTracing3
         '
         'ButtonSubmit
         '
-        Me.ButtonSubmit.BackColor = System.Drawing.Color.Black
+        Me.ButtonSubmit.BackColor = System.Drawing.Color.MediumSpringGreen
         Me.ButtonSubmit.FlatAppearance.BorderSize = 0
         Me.ButtonSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonSubmit.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ButtonSubmit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonSubmit.ForeColor = System.Drawing.Color.Black
         Me.ButtonSubmit.Location = New System.Drawing.Point(567, 385)
         Me.ButtonSubmit.Name = "ButtonSubmit"
         Me.ButtonSubmit.Size = New System.Drawing.Size(91, 44)
@@ -337,11 +337,11 @@ Partial Class ContactTracing3
         '
         'ButtonBack
         '
-        Me.ButtonBack.BackColor = System.Drawing.Color.Black
+        Me.ButtonBack.BackColor = System.Drawing.Color.MediumSpringGreen
         Me.ButtonBack.FlatAppearance.BorderSize = 0
         Me.ButtonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonBack.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ButtonBack.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonBack.ForeColor = System.Drawing.Color.Black
         Me.ButtonBack.Location = New System.Drawing.Point(23, 385)
         Me.ButtonBack.Name = "ButtonBack"
         Me.ButtonBack.Size = New System.Drawing.Size(75, 44)

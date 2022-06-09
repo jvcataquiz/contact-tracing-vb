@@ -193,11 +193,11 @@ Partial Class ContactTracing
         'ButtonNextPage2
         '
         Me.ButtonNextPage2.BackColor = System.Drawing.Color.MediumSeaGreen
-        Me.ButtonNextPage2.Enabled = False
+        Me.ButtonNextPage2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ButtonNextPage2.FlatAppearance.BorderSize = 0
         Me.ButtonNextPage2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonNextPage2.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ButtonNextPage2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonNextPage2.ForeColor = System.Drawing.Color.Black
         Me.ButtonNextPage2.Location = New System.Drawing.Point(589, 384)
         Me.ButtonNextPage2.Name = "ButtonNextPage2"
         Me.ButtonNextPage2.Size = New System.Drawing.Size(75, 44)

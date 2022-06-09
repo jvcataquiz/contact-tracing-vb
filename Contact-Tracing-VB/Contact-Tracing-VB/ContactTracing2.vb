@@ -1,5 +1,7 @@
 ﻿Public Class ContactTracing2
     Public Property f_name As String
+    Public Property s_name As String
+    Public Property m_name As String
     Public Property add As String
     Public Property email_add As String
     Public Property label_date As String
@@ -9,6 +11,8 @@
         Try
             Dim Page4 As New ContactTracing3
             Page4.page4f_name = f_name
+            Page4.page4s_name = s_name
+            Page4.page4m_name = m_name
             Page4.page4add = add
             Page4.page4email_add = email_add
             Page4.page4label_date = label_date
