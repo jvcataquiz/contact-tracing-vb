@@ -22,12 +22,12 @@ Public Class ContactTracing3
 
         Try
             Dim filecreate As System.IO.StreamWriter
-            Dim filereader As System.IO.StreamReader
-            filereader = My.Computer.FileSystem.OpenTextFileReader(FullName.Text + ".txt")
-            If File.Exists(FullName.Text) Then
+
+
+            If File.Exists(FullName.Text + "txt") Then
                 Dim result As DialogResult = MessageBox.Show("Data Found!!! Do you want to Overwrite it?", "Caption", MessageBoxButtons.YesNo)
                 If result = DialogResult.Yes Then
-                    filecreate = File.CreateText(FullName.Text + ".txt")
+                    filecreate = File.CreateText(FullName.Text + "txt")
                     filecreate.WriteLine(vbCrLf + LabelDate.Text + " " + DateLabel.Text)
                     filecreate.WriteLine(LabelFullname.Text + " " + FullName.Text)
                     filecreate.WriteLine(LabelEmail.Text + " " + Email.Text)
@@ -39,6 +39,7 @@ Public Class ContactTracing3
                     filecreate.WriteLine(LabelExposureQuestion1.Text + " " + Exposure1.Text)
                     filecreate.WriteLine(LabelExposureQuestion2.Text + " " + Exposure2.Text)
                     filecreate.WriteLine(LabelExposureQuestion2.Text + " " + Exposure2.Text)
+                    filecreate.Close()
                     MessageBox.Show("Information Updated!!!")
                     GoingBack()
                 Else
@@ -46,7 +47,7 @@ Public Class ContactTracing3
                     GoingBack()
                 End If
             Else
-                filecreate = My.Computer.FileSystem.OpenTextFileWriter(FullName.Text + ".txt", True)
+                filecreate = My.Computer.FileSystem.OpenTextFileWriter(FullName.Text + "txt", True)
                 filecreate.WriteLine(vbCrLf + LabelDate.Text + " " + DateLabel.Text)
                 filecreate.WriteLine(LabelFullname.Text + " " + FullName.Text)
                 filecreate.WriteLine(LabelEmail.Text + " " + Email.Text)
@@ -58,10 +59,11 @@ Public Class ContactTracing3
                 filecreate.WriteLine(LabelExposureQuestion1.Text + " " + Exposure1.Text)
                 filecreate.WriteLine(LabelExposureQuestion2.Text + " " + Exposure2.Text)
                 filecreate.WriteLine(LabelExposureQuestion2.Text + " " + Exposure2.Text)
+                filecreate.Close()
                 MessageBox.Show("Information Added!!!")
                 GoingBack()
             End If
-            filecreate.Close()
+
 
 
         Catch ex As Exception

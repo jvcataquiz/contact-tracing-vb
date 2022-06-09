@@ -100,12 +100,12 @@ Partial Class ContactTracing
         '
         'TextBoxSurname
         '
+        Me.TextBoxSurname.AcceptsTab = True
         Me.TextBoxSurname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBoxSurname.Location = New System.Drawing.Point(89, 183)
         Me.TextBoxSurname.Name = "TextBoxSurname"
         Me.TextBoxSurname.Size = New System.Drawing.Size(176, 23)
-        Me.TextBoxSurname.TabIndex = 5
-        Me.TextBoxSurname.TabStop = False
+        Me.TextBoxSurname.TabIndex = 0
         '
         'TextBoxFirstName
         '
@@ -113,8 +113,7 @@ Partial Class ContactTracing
         Me.TextBoxFirstName.Location = New System.Drawing.Point(352, 183)
         Me.TextBoxFirstName.Name = "TextBoxFirstName"
         Me.TextBoxFirstName.Size = New System.Drawing.Size(160, 23)
-        Me.TextBoxFirstName.TabIndex = 6
-        Me.TextBoxFirstName.TabStop = False
+        Me.TextBoxFirstName.TabIndex = 1
         '
         'TextBoxMiddleInitial
         '
@@ -123,8 +122,7 @@ Partial Class ContactTracing
         Me.TextBoxMiddleInitial.MaxLength = 1
         Me.TextBoxMiddleInitial.Name = "TextBoxMiddleInitial"
         Me.TextBoxMiddleInitial.Size = New System.Drawing.Size(49, 23)
-        Me.TextBoxMiddleInitial.TabIndex = 7
-        Me.TextBoxMiddleInitial.TabStop = False
+        Me.TextBoxMiddleInitial.TabIndex = 2
         '
         'DateTimePickerNowDate
         '
@@ -149,8 +147,7 @@ Partial Class ContactTracing
         Me.RichTextBoxAddress.Name = "RichTextBoxAddress"
         Me.RichTextBoxAddress.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
         Me.RichTextBoxAddress.Size = New System.Drawing.Size(645, 53)
-        Me.RichTextBoxAddress.TabIndex = 10
-        Me.RichTextBoxAddress.TabStop = False
+        Me.RichTextBoxAddress.TabIndex = 3
         Me.RichTextBoxAddress.Text = ""
         '
         'TextBoxEmail
@@ -159,8 +156,7 @@ Partial Class ContactTracing
         Me.TextBoxEmail.Name = "TextBoxEmail"
         Me.TextBoxEmail.PlaceholderText = "Needed email with @gmail.com"
         Me.TextBoxEmail.Size = New System.Drawing.Size(258, 23)
-        Me.TextBoxEmail.TabIndex = 12
-        Me.TextBoxEmail.TabStop = False
+        Me.TextBoxEmail.TabIndex = 4
         '
         'LabelEmail
         '
@@ -178,8 +174,7 @@ Partial Class ContactTracing
         Me.TextBoxPhoneNumber.Name = "TextBoxPhoneNumber"
         Me.TextBoxPhoneNumber.PlaceholderText = "Start with 09"
         Me.TextBoxPhoneNumber.Size = New System.Drawing.Size(198, 23)
-        Me.TextBoxPhoneNumber.TabIndex = 14
-        Me.TextBoxPhoneNumber.TabStop = False
+        Me.TextBoxPhoneNumber.TabIndex = 5
         '
         'LabelPhoneNumber
         '
@@ -201,8 +196,7 @@ Partial Class ContactTracing
         Me.ButtonNextPage2.Location = New System.Drawing.Point(589, 384)
         Me.ButtonNextPage2.Name = "ButtonNextPage2"
         Me.ButtonNextPage2.Size = New System.Drawing.Size(75, 44)
-        Me.ButtonNextPage2.TabIndex = 15
-        Me.ButtonNextPage2.TabStop = False
+        Me.ButtonNextPage2.TabIndex = 6
         Me.ButtonNextPage2.Text = "NEXT"
         Me.ButtonNextPage2.UseVisualStyleBackColor = False
         '
