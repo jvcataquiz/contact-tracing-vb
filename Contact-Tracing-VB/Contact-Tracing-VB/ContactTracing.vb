@@ -74,9 +74,9 @@
             If TextBoxSurname.Text.Length > 1 And TextBoxFirstName.Text.Length > 1 And
              RichTextBoxAddress.Text.Length > 1 And TextBoxEmail.Text.Length > 1 And
                TextBoxPhoneNumber.Text.Length = 11 Then
-                ButtonNextPage2.Enabled = True
+                ButtonNextPage2.Visible = True
             Else
-                ButtonNextPage2.Enabled = False
+                ButtonNextPage2.Visible = False
             End If
 
         Catch ex As Exception

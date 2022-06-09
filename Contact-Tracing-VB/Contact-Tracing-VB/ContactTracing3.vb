@@ -1,4 +1,6 @@
-﻿Public Class ContactTracing3
+﻿Imports System.IO
+
+Public Class ContactTracing3
     Public Property page4f_name As String
     Public Property page4add As String
     Public Property page4email_add As String
@@ -15,6 +17,14 @@
 
 
     Private Sub ButtonSubmit_Click(sender As Object, e As EventArgs) Handles ButtonSubmit.Click
+        Dim filecreate As System.IO.StreamWriter
+        filecreate = My.Computer.FileSystem.OpenTextFileWriter("contacttracing.txt", True)
+        filecreate.WriteLine("Date : " + DateLabel.Text)
+        filecreate.WriteLine("Name : " + FullName.Text)
+        filecreate.WriteLine("Email : " + Email.Text)
+        filecreate.WriteLine("Phone Number : " + Number.Text)
+        MessageBox.Show("Information Added!!!")
+        filecreate.Close()
 
     End Sub
 
