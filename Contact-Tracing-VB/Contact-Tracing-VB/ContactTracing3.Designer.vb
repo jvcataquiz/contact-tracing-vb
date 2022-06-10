@@ -22,6 +22,7 @@ Partial Class ContactTracing3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ContactTracing3))
         Me.LabelFullname = New System.Windows.Forms.Label()
         Me.LabelEmail = New System.Windows.Forms.Label()
@@ -54,6 +55,8 @@ Partial Class ContactTracing3
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.CheckBoxHereby = New System.Windows.Forms.CheckBox()
+        Me.Timerupdater = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -201,9 +204,10 @@ Partial Class ContactTracing3
         Me.ButtonSubmit.Location = New System.Drawing.Point(567, 385)
         Me.ButtonSubmit.Name = "ButtonSubmit"
         Me.ButtonSubmit.Size = New System.Drawing.Size(91, 44)
-        Me.ButtonSubmit.TabIndex = 14
+        Me.ButtonSubmit.TabIndex = 0
         Me.ButtonSubmit.Text = "SUBMIT"
         Me.ButtonSubmit.UseVisualStyleBackColor = False
+        Me.ButtonSubmit.Visible = False
         '
         'FullName
         '
@@ -379,12 +383,26 @@ Partial Class ContactTracing3
         Me.PictureBox3.TabIndex = 30
         Me.PictureBox3.TabStop = False
         '
+        'CheckBoxHereby
+        '
+        Me.CheckBoxHereby.AutoSize = True
+        Me.CheckBoxHereby.Location = New System.Drawing.Point(52, 314)
+        Me.CheckBoxHereby.Name = "CheckBoxHereby"
+        Me.CheckBoxHereby.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBoxHereby.TabIndex = 31
+        Me.CheckBoxHereby.UseVisualStyleBackColor = True
+        '
+        'Timerupdater
+        '
+        Me.Timerupdater.Enabled = True
+        '
         'ContactTracing3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(154, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.CheckBoxHereby)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.ButtonBack)
@@ -461,4 +479,6 @@ Partial Class ContactTracing3
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents CheckBoxHereby As CheckBox
+    Friend WithEvents Timerupdater As Timer
 End Class
