@@ -148,3 +148,16 @@ Did you have unprotected exposure to a suspect/confirmed  COVID
 case for the past 14 days? No
 Did you have a family member experiencing those symptoms above? No
 Did you have a family member experiencing those symptoms above? No
+
+################################################
+Date: Thursday, 30 June 2022
+Fullname:  CATAQUIZ, JERICK VEGILE M..
+Email: jvcataquiz@gmail.com
+Mobile Number: 09123456789
+Coughs, Cold or Fever: Yes
+Difficulty of Breathing: Yes
+Diarrhea: Yes
+Did you have unprotected exposure to a suspect/confirmed  COVID 
+case for the past 14 days? Yes
+Did you have a family member experiencing those symptoms above? Yes
+Did you have a family member experiencing those symptoms above? Yes

@@ -151,8 +151,7 @@
             RichTextBoxAddress.Text = array(3)
             TextBoxEmail.Text = array(4)
             TextBoxPhoneNumber.Text = array(5)
-        Else
-            MessageBox.Show("direct input")
+
         End If
     End Sub
 End Class

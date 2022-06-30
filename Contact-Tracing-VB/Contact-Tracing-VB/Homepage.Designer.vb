@@ -139,15 +139,21 @@ Partial Class Homepage
         '
         'ButtonStart
         '
-        Me.ButtonStart.Location = New System.Drawing.Point(232, 348)
+        Me.ButtonStart.BackColor = System.Drawing.Color.Black
+        Me.ButtonStart.FlatAppearance.BorderSize = 0
+        Me.ButtonStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonStart.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonStart.ForeColor = System.Drawing.Color.White
+        Me.ButtonStart.Location = New System.Drawing.Point(220, 341)
         Me.ButtonStart.Name = "ButtonStart"
-        Me.ButtonStart.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonStart.Size = New System.Drawing.Size(104, 45)
         Me.ButtonStart.TabIndex = 1
         Me.ButtonStart.Text = "START"
-        Me.ButtonStart.UseVisualStyleBackColor = True
+        Me.ButtonStart.UseVisualStyleBackColor = False
         '
         'PictureBoxCameraDisplay
         '
+        Me.PictureBoxCameraDisplay.BackColor = System.Drawing.Color.Gainsboro
         Me.PictureBoxCameraDisplay.Location = New System.Drawing.Point(89, 33)
         Me.PictureBoxCameraDisplay.Name = "PictureBoxCameraDisplay"
         Me.PictureBoxCameraDisplay.Size = New System.Drawing.Size(353, 289)
