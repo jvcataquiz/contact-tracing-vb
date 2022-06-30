@@ -156,7 +156,7 @@ Partial Class Homepage
         '
         'TimerBarcode
         '
-        Me.TimerBarcode.Interval = 1000
+        Me.TimerBarcode.Interval = 500
         '
         'Homepage
         '

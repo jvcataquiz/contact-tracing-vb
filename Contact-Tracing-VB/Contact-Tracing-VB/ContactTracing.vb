@@ -2,6 +2,8 @@
     'i declare this string to use it public and if the user turn on or off the capslock it will work
     Dim allowedChars As String = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     Dim digits As String = "1234567890"
+    Public Property flag As Boolean
+    Public Property data As String
 
     'when this button clicked, it has a function to show the next page and closing this page
     Private Sub ButtonNextPage2_Click(sender As Object, e As EventArgs) Handles ButtonNextPage2.Click
@@ -137,5 +139,20 @@
         Me.Hide()
         home.Show()
 
+    End Sub
+
+    Private Sub ContactTracing_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If flag Then
+
+            Dim array As String() = data.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+            TextBoxSurname.Text = array(0)
+            TextBoxFirstName.Text = array(1)
+            TextBoxMiddleInitial.Text = array(2)
+            RichTextBoxAddress.Text = array(3)
+            TextBoxEmail.Text = array(4)
+            TextBoxPhoneNumber.Text = array(5)
+        Else
+            MessageBox.Show("direct input")
+        End If
     End Sub
 End Class

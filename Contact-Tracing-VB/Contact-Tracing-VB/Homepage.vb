@@ -73,9 +73,11 @@ Public Class Homepage
             Dim output As ZXing.Result = qrReader.Decode(DirectCast(PictureBoxCameraDisplay.Image, Bitmap))
 
             If output IsNot Nothing Then
-                MessageBox.Show(output.ToString())
-
                 Dim contacttracing As New ContactTracing
+                contacttracing.data = output.ToString()
+                TimerBarcode.Stop()
+
+                contacttracing.flag = True
                 Me.Hide()
                 contacttracing.Show()
 
@@ -91,4 +93,6 @@ Public Class Homepage
 
 
     End Sub
+
+
 End Class
