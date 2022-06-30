@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3HQIuGq9I9A+lkSMsgkhNhd5xr9ibhqoRPCdHA0tgHB4XhPfQCOfzCs+xlpt2dE61nKigtaoOZFqPi0Fp3rimw==",
+  "dgSpecHash": "u6xDzVnc89iwJ48jOiLKxqdn7yIUmo+doo3vlS7R4WnTfkmVsVzd8ZSvhQpUvtiURsT257eKkksbSBPaSRCVZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jvcat\\source\\repos\\contact-tracing-vb-master\\Contact-Tracing-VB\\Contact-Tracing-VB\\Contact-Tracing-VB.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\jvcat\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\jvcat\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
-    "C:\\Users\\jvcat\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
+    "C:\\Users\\jvcat\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\jvcat\\.nuget\\packages\\zxing.net\\0.6.0\\zxing.net.0.6.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -35,6 +36,16 @@
       "warningLevel": 1,
       "message": "Package 'AForge.Video.DirectShow 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "AForge.Video.DirectShow",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ZXing.Net 0.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ZXing.Net",
       "targetGraphs": [
         "net6.0-windows7.0"
       ]

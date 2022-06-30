@@ -22,6 +22,7 @@ Partial Class Homepage
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Homepage))
         Me.PictureBoxImageIco = New System.Windows.Forms.PictureBox()
         Me.PictureBoxwelcome = New System.Windows.Forms.PictureBox()
@@ -31,9 +32,9 @@ Partial Class Homepage
         Me.ButtonDirect = New System.Windows.Forms.Button()
         Me.LabelRegister = New System.Windows.Forms.Label()
         Me.CameraLayout = New System.Windows.Forms.Panel()
-        Me.PictureBoxCameraDisplay = New System.Windows.Forms.PictureBox()
         Me.ButtonStart = New System.Windows.Forms.Button()
-        Me.ButtonNext = New System.Windows.Forms.Button()
+        Me.PictureBoxCameraDisplay = New System.Windows.Forms.PictureBox()
+        Me.TimerBarcode = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBoxImageIco, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxwelcome, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxtitle, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -127,7 +128,6 @@ Partial Class Homepage
         'CameraLayout
         '
         Me.CameraLayout.BackColor = System.Drawing.Color.White
-        Me.CameraLayout.Controls.Add(Me.ButtonNext)
         Me.CameraLayout.Controls.Add(Me.ButtonStart)
         Me.CameraLayout.Controls.Add(Me.PictureBoxCameraDisplay)
         Me.CameraLayout.Dock = System.Windows.Forms.DockStyle.Fill
@@ -137,6 +137,15 @@ Partial Class Homepage
         Me.CameraLayout.TabIndex = 8
         Me.CameraLayout.Visible = False
         '
+        'ButtonStart
+        '
+        Me.ButtonStart.Location = New System.Drawing.Point(232, 348)
+        Me.ButtonStart.Name = "ButtonStart"
+        Me.ButtonStart.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonStart.TabIndex = 1
+        Me.ButtonStart.Text = "START"
+        Me.ButtonStart.UseVisualStyleBackColor = True
+        '
         'PictureBoxCameraDisplay
         '
         Me.PictureBoxCameraDisplay.Location = New System.Drawing.Point(89, 33)
@@ -145,24 +154,9 @@ Partial Class Homepage
         Me.PictureBoxCameraDisplay.TabIndex = 0
         Me.PictureBoxCameraDisplay.TabStop = False
         '
-        'ButtonStart
+        'TimerBarcode
         '
-        Me.ButtonStart.Location = New System.Drawing.Point(76, 341)
-        Me.ButtonStart.Name = "ButtonStart"
-        Me.ButtonStart.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonStart.TabIndex = 1
-        Me.ButtonStart.Text = "START"
-        Me.ButtonStart.UseVisualStyleBackColor = True
-        '
-        'ButtonNext
-        '
-        Me.ButtonNext.Location = New System.Drawing.Point(367, 341)
-        Me.ButtonNext.Name = "ButtonNext"
-        Me.ButtonNext.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonNext.TabIndex = 2
-        Me.ButtonNext.Text = "NEXT"
-        Me.ButtonNext.UseVisualStyleBackColor = True
-        Me.ButtonNext.Visible = False
+        Me.TimerBarcode.Interval = 1000
         '
         'Homepage
         '
@@ -201,7 +195,7 @@ Partial Class Homepage
     Friend WithEvents ButtonDirect As Button
     Friend WithEvents LabelRegister As Label
     Friend WithEvents CameraLayout As Panel
-    Friend WithEvents ButtonNext As Button
     Friend WithEvents ButtonStart As Button
     Friend WithEvents PictureBoxCameraDisplay As PictureBox
+    Friend WithEvents TimerBarcode As Timer
 End Class
