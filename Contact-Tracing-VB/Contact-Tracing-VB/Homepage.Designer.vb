@@ -23,90 +23,100 @@ Partial Class Homepage
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Homepage))
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBoxImageIco = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxwelcome = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxtitle = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxImageuserico = New System.Windows.Forms.PictureBox()
+        Me.ButtonScan = New System.Windows.Forms.Button()
+        Me.ButtonDirect = New System.Windows.Forms.Button()
+        Me.LabelRegister = New System.Windows.Forms.Label()
+        CType(Me.PictureBoxImageIco, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxwelcome, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxtitle, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxImageuserico, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox2
+        'PictureBoxImageIco
         '
-        Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(27, Byte), Integer), CType(CType(171, Byte), Integer), CType(CType(195, Byte), Integer))
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(285, 208)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(123, 114)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
+        Me.PictureBoxImageIco.BackColor = System.Drawing.Color.FromArgb(CType(CType(27, Byte), Integer), CType(CType(171, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.PictureBoxImageIco.Image = CType(resources.GetObject("PictureBoxImageIco.Image"), System.Drawing.Image)
+        Me.PictureBoxImageIco.Location = New System.Drawing.Point(285, 208)
+        Me.PictureBoxImageIco.Name = "PictureBoxImageIco"
+        Me.PictureBoxImageIco.Size = New System.Drawing.Size(123, 114)
+        Me.PictureBoxImageIco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBoxImageIco.TabIndex = 1
+        Me.PictureBoxImageIco.TabStop = False
         '
-        'PictureBox3
+        'PictureBoxwelcome
         '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(119, 3)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(289, 71)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
+        Me.PictureBoxwelcome.Image = CType(resources.GetObject("PictureBoxwelcome.Image"), System.Drawing.Image)
+        Me.PictureBoxwelcome.Location = New System.Drawing.Point(119, 3)
+        Me.PictureBoxwelcome.Name = "PictureBoxwelcome"
+        Me.PictureBoxwelcome.Size = New System.Drawing.Size(289, 71)
+        Me.PictureBoxwelcome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBoxwelcome.TabIndex = 2
+        Me.PictureBoxwelcome.TabStop = False
         '
-        'PictureBox4
+        'PictureBoxtitle
         '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(1, 80)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(529, 104)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
+        Me.PictureBoxtitle.Image = CType(resources.GetObject("PictureBoxtitle.Image"), System.Drawing.Image)
+        Me.PictureBoxtitle.Location = New System.Drawing.Point(1, 80)
+        Me.PictureBoxtitle.Name = "PictureBoxtitle"
+        Me.PictureBoxtitle.Size = New System.Drawing.Size(529, 104)
+        Me.PictureBoxtitle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBoxtitle.TabIndex = 3
+        Me.PictureBoxtitle.TabStop = False
         '
-        'PictureBox1
+        'PictureBoxImageuserico
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(27, Byte), Integer), CType(CType(171, Byte), Integer), CType(CType(195, Byte), Integer))
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(119, 208)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(123, 114)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
+        Me.PictureBoxImageuserico.BackColor = System.Drawing.Color.FromArgb(CType(CType(27, Byte), Integer), CType(CType(171, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.PictureBoxImageuserico.Image = CType(resources.GetObject("PictureBoxImageuserico.Image"), System.Drawing.Image)
+        Me.PictureBoxImageuserico.Location = New System.Drawing.Point(119, 208)
+        Me.PictureBoxImageuserico.Name = "PictureBoxImageuserico"
+        Me.PictureBoxImageuserico.Size = New System.Drawing.Size(123, 114)
+        Me.PictureBoxImageuserico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBoxImageuserico.TabIndex = 4
+        Me.PictureBoxImageuserico.TabStop = False
         '
-        'Button1
+        'ButtonScan
         '
-        Me.Button1.Location = New System.Drawing.Point(285, 341)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(123, 37)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Scan QR CODE"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonScan.BackColor = System.Drawing.Color.Black
+        Me.ButtonScan.FlatAppearance.BorderSize = 0
+        Me.ButtonScan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonScan.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonScan.ForeColor = System.Drawing.Color.White
+        Me.ButtonScan.Location = New System.Drawing.Point(293, 341)
+        Me.ButtonScan.Name = "ButtonScan"
+        Me.ButtonScan.Size = New System.Drawing.Size(109, 37)
+        Me.ButtonScan.TabIndex = 5
+        Me.ButtonScan.Text = "Scan QR CODE"
+        Me.ButtonScan.UseVisualStyleBackColor = False
         '
-        'Button2
+        'ButtonDirect
         '
-        Me.Button2.Location = New System.Drawing.Point(119, 341)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(123, 37)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "Direct Input"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.ButtonDirect.BackColor = System.Drawing.Color.Black
+        Me.ButtonDirect.FlatAppearance.BorderSize = 0
+        Me.ButtonDirect.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonDirect.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonDirect.ForeColor = System.Drawing.Color.White
+        Me.ButtonDirect.Location = New System.Drawing.Point(126, 341)
+        Me.ButtonDirect.Name = "ButtonDirect"
+        Me.ButtonDirect.Size = New System.Drawing.Size(109, 37)
+        Me.ButtonDirect.TabIndex = 6
+        Me.ButtonDirect.Text = "Direct Input"
+        Me.ButtonDirect.UseVisualStyleBackColor = False
         '
-        'Label1
+        'LabelRegister
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Impact", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(234, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(168, 156)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(195, 39)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "REGISTRATION"
+        Me.LabelRegister.AutoSize = True
+        Me.LabelRegister.BackColor = System.Drawing.Color.Transparent
+        Me.LabelRegister.Font = New System.Drawing.Font("Impact", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LabelRegister.ForeColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(234, Byte), Integer))
+        Me.LabelRegister.Location = New System.Drawing.Point(168, 156)
+        Me.LabelRegister.Name = "LabelRegister"
+        Me.LabelRegister.Size = New System.Drawing.Size(195, 39)
+        Me.LabelRegister.TabIndex = 7
+        Me.LabelRegister.Text = "REGISTRATION"
         '
         'Homepage
         '
@@ -114,31 +124,31 @@ Partial Class Homepage
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(27, Byte), Integer), CType(CType(171, Byte), Integer), CType(CType(195, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(532, 414)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox4)
+        Me.Controls.Add(Me.LabelRegister)
+        Me.Controls.Add(Me.ButtonDirect)
+        Me.Controls.Add(Me.ButtonScan)
+        Me.Controls.Add(Me.PictureBoxImageuserico)
+        Me.Controls.Add(Me.PictureBoxImageIco)
+        Me.Controls.Add(Me.PictureBoxwelcome)
+        Me.Controls.Add(Me.PictureBoxtitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MaximizeBox = False
         Me.Name = "Homepage"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Homepage"
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxImageIco, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxwelcome, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxtitle, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxImageuserico, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBoxImageIco As PictureBox
+    Friend WithEvents PictureBoxwelcome As PictureBox
+    Friend WithEvents PictureBoxtitle As PictureBox
+    Friend WithEvents PictureBoxImageuserico As PictureBox
+    Friend WithEvents ButtonScan As Button
+    Friend WithEvents ButtonDirect As Button
+    Friend WithEvents LabelRegister As Label
 End Class
