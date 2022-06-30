@@ -30,10 +30,16 @@ Partial Class Homepage
         Me.ButtonScan = New System.Windows.Forms.Button()
         Me.ButtonDirect = New System.Windows.Forms.Button()
         Me.LabelRegister = New System.Windows.Forms.Label()
+        Me.CameraLayout = New System.Windows.Forms.Panel()
+        Me.PictureBoxCameraDisplay = New System.Windows.Forms.PictureBox()
+        Me.ButtonStart = New System.Windows.Forms.Button()
+        Me.ButtonNext = New System.Windows.Forms.Button()
         CType(Me.PictureBoxImageIco, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxwelcome, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxtitle, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxImageuserico, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.CameraLayout.SuspendLayout()
+        CType(Me.PictureBoxCameraDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBoxImageIco
@@ -118,12 +124,53 @@ Partial Class Homepage
         Me.LabelRegister.TabIndex = 7
         Me.LabelRegister.Text = "REGISTRATION"
         '
+        'CameraLayout
+        '
+        Me.CameraLayout.BackColor = System.Drawing.Color.White
+        Me.CameraLayout.Controls.Add(Me.ButtonNext)
+        Me.CameraLayout.Controls.Add(Me.ButtonStart)
+        Me.CameraLayout.Controls.Add(Me.PictureBoxCameraDisplay)
+        Me.CameraLayout.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.CameraLayout.Location = New System.Drawing.Point(0, 0)
+        Me.CameraLayout.Name = "CameraLayout"
+        Me.CameraLayout.Size = New System.Drawing.Size(532, 414)
+        Me.CameraLayout.TabIndex = 8
+        Me.CameraLayout.Visible = False
+        '
+        'PictureBoxCameraDisplay
+        '
+        Me.PictureBoxCameraDisplay.Location = New System.Drawing.Point(89, 33)
+        Me.PictureBoxCameraDisplay.Name = "PictureBoxCameraDisplay"
+        Me.PictureBoxCameraDisplay.Size = New System.Drawing.Size(353, 289)
+        Me.PictureBoxCameraDisplay.TabIndex = 0
+        Me.PictureBoxCameraDisplay.TabStop = False
+        '
+        'ButtonStart
+        '
+        Me.ButtonStart.Location = New System.Drawing.Point(76, 341)
+        Me.ButtonStart.Name = "ButtonStart"
+        Me.ButtonStart.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonStart.TabIndex = 1
+        Me.ButtonStart.Text = "START"
+        Me.ButtonStart.UseVisualStyleBackColor = True
+        '
+        'ButtonNext
+        '
+        Me.ButtonNext.Location = New System.Drawing.Point(367, 341)
+        Me.ButtonNext.Name = "ButtonNext"
+        Me.ButtonNext.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNext.TabIndex = 2
+        Me.ButtonNext.Text = "NEXT"
+        Me.ButtonNext.UseVisualStyleBackColor = True
+        Me.ButtonNext.Visible = False
+        '
         'Homepage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(27, Byte), Integer), CType(CType(171, Byte), Integer), CType(CType(195, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(532, 414)
+        Me.Controls.Add(Me.CameraLayout)
         Me.Controls.Add(Me.LabelRegister)
         Me.Controls.Add(Me.ButtonDirect)
         Me.Controls.Add(Me.ButtonScan)
@@ -140,6 +187,8 @@ Partial Class Homepage
         CType(Me.PictureBoxwelcome, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxtitle, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxImageuserico, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.CameraLayout.ResumeLayout(False)
+        CType(Me.PictureBoxCameraDisplay, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -151,4 +200,8 @@ Partial Class Homepage
     Friend WithEvents ButtonScan As Button
     Friend WithEvents ButtonDirect As Button
     Friend WithEvents LabelRegister As Label
+    Friend WithEvents CameraLayout As Panel
+    Friend WithEvents ButtonNext As Button
+    Friend WithEvents ButtonStart As Button
+    Friend WithEvents PictureBoxCameraDisplay As PictureBox
 End Class

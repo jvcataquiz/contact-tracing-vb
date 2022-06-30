@@ -132,5 +132,10 @@
         End Try
     End Sub
 
+    Private Sub ButtonBack_Click(sender As Object, e As EventArgs) Handles ButtonBack.Click
+        Dim home As New Homepage
+        Me.Hide()
+        home.Show()
 
+    End Sub
 End Class

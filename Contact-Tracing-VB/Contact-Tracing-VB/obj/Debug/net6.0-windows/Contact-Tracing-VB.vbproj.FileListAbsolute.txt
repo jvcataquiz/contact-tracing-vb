@@ -39,3 +39,7 @@ C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact
 C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact-Tracing-VB\obj\Debug\net6.0-windows\Contact-Tracing-VB.pdb
 C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact-Tracing-VB\obj\Debug\net6.0-windows\Contact-Tracing-VB.genruntimeconfig.cache
 C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact-Tracing-VB\obj\Debug\net6.0-windows\ref\Contact-Tracing-VB.dll
+C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact-Tracing-VB\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact-Tracing-VB\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact-Tracing-VB\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\jvcat\source\repos\contact-tracing-vb-master\Contact-Tracing-VB\Contact-Tracing-VB\obj\Debug\net6.0-windows\Contact-Tracing-VB.vbproj.CopyComplete

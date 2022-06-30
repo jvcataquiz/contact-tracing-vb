@@ -47,6 +47,7 @@ Partial Class ContactTracing
         Me.AutoUpdate = New System.Windows.Forms.Timer(Me.components)
         Me.AddressError = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ButtonBack = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -269,12 +270,26 @@ Partial Class ContactTracing
         Me.PictureBox1.TabIndex = 23
         Me.PictureBox1.TabStop = False
         '
+        'ButtonBack
+        '
+        Me.ButtonBack.BackColor = System.Drawing.Color.MediumSeaGreen
+        Me.ButtonBack.FlatAppearance.BorderSize = 0
+        Me.ButtonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonBack.Font = New System.Drawing.Font("Wide Latin", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ButtonBack.Location = New System.Drawing.Point(18, 378)
+        Me.ButtonBack.Name = "ButtonBack"
+        Me.ButtonBack.Size = New System.Drawing.Size(77, 44)
+        Me.ButtonBack.TabIndex = 24
+        Me.ButtonBack.Text = "BACK"
+        Me.ButtonBack.UseVisualStyleBackColor = False
+        '
         'ContactTracing
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(215, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(687, 437)
+        Me.Controls.Add(Me.ButtonBack)
         Me.Controls.Add(Me.AddressError)
         Me.Controls.Add(Me.PhonenumberError)
         Me.Controls.Add(Me.EmailError)
@@ -332,4 +347,5 @@ Partial Class ContactTracing
     Friend WithEvents AutoUpdate As Timer
     Friend WithEvents AddressError As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ButtonBack As Button
 End Class
